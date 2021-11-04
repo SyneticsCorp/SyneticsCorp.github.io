@@ -1,0 +1,49 @@
+{% if post.header.teaser %}
+{% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+{% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+{% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+{% assign title = post.title %}
+{% endif %}
+
+
+<div>
+  
+  <div
+    class="{{ include.type | default: 'list' }}__item mb-5 d-flex justify-content-between main-loop-card border-bottom border-color: #e8f3ec"
+    style="padding-left: 16px; padding-right: 16px;">
+    <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+
+      
+      <!-- 그리드 타입인경우 -->
+      {% if include.type == "grid" and teaser %}
+      <div class="archive__item-teaser">
+        <img src="{{ teaser | relative_url }}" alt="">
+      </div>
+      {% endif %}
+
+
+
+      <!-- 카테고리목록 -->
+      {% include category-list-custom.html %}
+      <h3 class="mb-2 h4 font-weight-bold">
+        {% if post.link %}
+        <!-- 글 제목 -->
+        <a class="text-dark" href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}"
+          rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span
+            class="sr-only">Permalink</span></a>
+        {% else %}
+        <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+        {% endif %}
+      </h3>
+      <!-- 글 요약 -->
+      {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 130 }}</p>{% endif %}
+    <!-- 태그 목록 -->
+    {% include tag-list-custom.html %}      
+  </article>
+  
+</div>

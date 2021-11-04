@@ -1,0 +1,47 @@
+<!-- lyj_오른쪽 사이드바 (최근 글, 카테고리 표시)-->
+<!-- 레이아웃 or 페이지.md에 "sidebar:true" 설정 -->
+{% if layout.sidebar-right or page.sidebar-right %}
+
+
+<!-- lyj_오른쪽 사이드바로 변경 -->
+<!-- <div class="sidebar sidebar__right sticky"> -->
+<!-- <div class="col-md-4 sidebar sidebar__right"> -->
+
+
+<div class="sticky-top sticky-top-offset">
+
+  <!--lyj_최근 올라온 글 2개 -> 제목 리스트표시-->
+  <h3 class="font-weight-bold spanborder"><span>최근 올라온글</span></h3>
+  <ol class="list-unstyled" style="color: #4092A7;">
+    {%- for post in site.posts limit: 2 -%}
+
+    <li class="mb-1">
+      <span>
+        <a href="{{ post.url | relative_url }}" rel="permalink" itemprop="url" class="text-gray-50"
+          style="font-size: 14px; font-weight: bold;">{{ post.title }}</a>
+      </span>
+    </li>
+    {%- endfor -%}
+  </ol>
+
+
+
+  <!--lyj_블로그 카테고리 항목-->
+  <h3 class="font-weight-bold spanborder"><span>카테고리</span></h3>
+  <ul class="list-unstyled" style="color: #4092A7;">
+    {% for category in site.categories %}
+    <li class="mb-1">
+      <span>
+        <a href="{{site.baseurl}}/categories/{{ site.category_dir }}{{ category | first }}" rel="permalink" itemprop="url" class="text-gray-50"
+          style="font-size: 14px; font-weight: bold;">{{ category | first }} ({{ category | last | size }})</a>
+      </span>
+    </li>
+    {%- endfor -%}
+  </ul>
+
+</div>
+
+
+
+<!-- </div> -->
+{% endif %}

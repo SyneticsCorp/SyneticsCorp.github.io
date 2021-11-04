@@ -1,0 +1,13 @@
+# lyj_가이드_상단 메뉴
+# main links
+main:
+  - title: "소개"
+    url: /about
+  - title: "블로그"
+    url: /blog/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/

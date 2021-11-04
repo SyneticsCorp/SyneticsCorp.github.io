@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-11-03T05:36:47+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html"> </title><subtitle>기능안전 SW 개발을 위한 ALM 구축 전문 기업</subtitle><author><name>작성자이름</name><email>작성자이메일@gmail.com</email></author><entry><title type="html">소프트웨어 테스팅이란?</title><link href="http://localhost:4000/category4/SW-Testing/" rel="alternate" type="text/html" title="소프트웨어 테스팅이란?" /><published>2021-10-02T00:00:00+09:00</published><updated>2021-10-02T00:00:00+09:00</updated><id>http://localhost:4000/category4/SW-Testing</id><content type="html" xml:base="http://localhost:4000/category4/SW-Testing/">&lt;p&gt;소프트웨어 테스팅이란 무엇입니까?
+소프트웨어 테스트는 실제 결과가 예상 결과와 일치하는지 확인하고 소프트웨어 시스템에 결함 이 없는지 확인하는 활동 입니다. 하나 이상의 관심 속성을 평가하기위한 소프트웨어 구성 요소 또는 시스템 구성 요소의 실행을 포함합니다.&lt;/p&gt;
+
+&lt;p&gt;철도, 항공, 로봇 등 안전 필수 시스템(Safety Critical System) 들은 사고 발생시 큰 인명 및 재산 피해로 이어지기 때문에 개발 과정에 서 철저한 안전 활동이 요구된다. 특히, 시스템 내 SW의 역할이 중요해지 고 그 비중이 높아짐에 따라, 사고의 잠재적 원인인 해저드(Hazard)를 분 석하고 안전 요구사항을 도출하기 위한 노력이 필요하다. 이에 따라, 안 전성 확보가 필수적인 산업분야에서는 도메인별 특성에 맞는 기능 안전 표준을 제정하여 SW 안전 기준을 강화하고, 국제 표준 준수를 의무화하 고 있다.
+한편, 초지능, 초연결 시대에 진입하면서 머신러닝, 딥러닝 등 AI 기 술이 산업 전반에 활용되고 있으며, 개인지원 로봇 (Personal Care Robot) 의 자율 기능(autonomous function)에도 적용되고 있다. AI 기술은 자율성 을 갖추어 큰 편리함을 제공하지만, 전통적인 알고리즘 기반의 SW가 아 닌 데이터를 기반으로 학습을 통해 개발되는 SW이기 때문에, 기존과는 다른 안전성 확보 방안이 필요하다. AI 안전성 분야에서는 AI 실패를 예 방하기 위한 연구들을 수행해오고 있다. OECD와 EU 등 국제기구는 신뢰 가능(Trust worthy) AI 시스템 구축을 위한 지침을 제공하고 있으며, 자동 차 분야에서도 자율 주행 관련 안전성 표준인 SOTIF(Safety Of The Intended Function)를 개발 중이다.&lt;/p&gt;
+
+&lt;p&gt;하지만, 개인 지원 로봇의 자율 기능을 위한 안전성 연구는 많이 이 루어지지 않고 있다. 개인지원 로봇의 안전성 확보를 위해 개발된 표준인 ISO 13482는 Hazard 분석과 리스크 완화 방안을 위한 기본 틀을 제시하 고 있지만, 자율 의사결정 지침에서는 상위 수준의 가이드만 제시하고 있 다. 그러므로, 개인지원 로봇 분야의 실무자들을 지원하기 위해서는 기존 안전분석 기법과 더불어 자율 기능에 적용하기 위한 안전성 분석 프로세 스 및 가이드라인이 필요하다.&lt;/p&gt;</content><author><name>작성자이름</name><email>작성자이메일@gmail.com</email></author><category term="category4" /><category term="tag1" /><category term="tag2" /><category term="tag3" /><category term="tag4" /><category term="tag5" /><category term="tag6" /><category term="tag7" /><summary type="html">소프트웨어 테스팅이란 무엇입니까? 소프트웨어 테스트는 실제 결과가 예상 결과와 일치하는지 확인하고 소프트웨어 시스템에 결함 이 없는지 확인하는 활동 입니다. 하나 이상의 관심 속성을 평가하기위한 소프트웨어 구성 요소 또는 시스템 구성 요소의 실행을 포함합니다.</summary></entry><entry><title type="html">DevOps 이해</title><link href="http://localhost:4000/category2/DevOPs/" rel="alternate" type="text/html" title="DevOps 이해" /><published>2012-03-15T00:00:00+09:00</published><updated>2012-03-15T00:00:00+09:00</updated><id>http://localhost:4000/category2/DevOPs</id><content type="html" xml:base="http://localhost:4000/category2/DevOPs/">&lt;p&gt;DevOps란 무엇일까요?
+‘DevOps’는 ‘development(개발)’와 ‘operations(운영)’가 합쳐진 단어이지만, 단순히 각각의 용어를 결합한 이상의 포괄적인 아이디어와 방식을 나타냅니다. DevOps에는 보안, 협업 방식, 데이터 분석을 비롯해 기타 여러 요소가 포함됩니다. 그렇다면 DevOps가 구체적으로 무엇을 의미하는 것일까요?&lt;/p&gt;
+
+&lt;p&gt;자동차, 철도, 항공, 로봇 등 안전 필수 시스템(Safety Critical System) 들은 사고 발생시 큰 인명 및 재산 피해로 이어지기 때문에 개발 과정에 서 철저한 안전 활동이 요구된다. 특히, 시스템 내 SW의 역할이 중요해지 고 그 비중이 높아짐에 따라, 사고의 잠재적 원인인 해저드(Hazard)를 분 석하고 안전 요구사항을 도출하기 위한 노력이 필요하다. 이에 따라, 안 전성 확보가 필수적인 산업분야에서는 도메인별 특성에 맞는 기능 안전 표준을 제정하여 SW 안전 기준을 강화하고, 국제 표준 준수를 의무화하 고 있다.
+한편, 초지능, 초연결 시대에 진입하면서 머신러닝, 딥러닝 등 AI 기 술이 산업 전반에 활용되고 있으며, 개인지원 로봇 (Personal Care Robot) 의 자율 기능(autonomous function)에도 적용되고 있다. AI 기술은 자율성 을 갖추어 큰 편리함을 제공하지만, 전통적인 알고리즘 기반의 SW가 아 닌 데이터를 기반으로 학습을 통해 개발되는 SW이기 때문에, 기존과는 다른 안전성 확보 방안이 필요하다. AI 안전성 분야에서는 AI 실패를 예 방하기 위한 연구들을 수행해오고 있다. OECD와 EU 등 국제기구는 신뢰 가능(Trust worthy) AI 시스템 구축을 위한 지침을 제공하고 있으며, 자동 차 분야에서도 자율 주행 관련 안전성 표준인 SOTIF(Safety Of The Intended Function)를 개발 중이다.&lt;/p&gt;
+
+&lt;p&gt;하지만, 개인 지원 로봇의 자율 기능을 위한 안전성 연구는 많이 이 루어지지 않고 있다. 개인지원 로봇의 안전성 확보를 위해 개발된 표준인 ISO 13482는 Hazard 분석과 리스크 완화 방안을 위한 기본 틀을 제시하 고 있지만, 자율 의사결정 지침에서는 상위 수준의 가이드만 제시하고 있 다. 그러므로, 개인지원 로봇 분야의 실무자들을 지원하기 위해서는 기존 안전분석 기법과 더불어 자율 기능에 적용하기 위한 안전성 분석 프로세 스 및 가이드라인이 필요하다.&lt;/p&gt;</content><author><name>작성자이름</name><email>작성자이메일@gmail.com</email></author><category term="category2" /><category term="tag1" /><category term="tag2" /><category term="tag3" /><summary type="html">DevOps란 무엇일까요? ‘DevOps’는 ‘development(개발)’와 ‘operations(운영)’가 합쳐진 단어이지만, 단순히 각각의 용어를 결합한 이상의 포괄적인 아이디어와 방식을 나타냅니다. DevOps에는 보안, 협업 방식, 데이터 분석을 비롯해 기타 여러 요소가 포함됩니다. 그렇다면 DevOps가 구체적으로 무엇을 의미하는 것일까요?</summary></entry><entry><title type="html">애플리케이션 라이프사이클 관리(ALM)</title><link href="http://localhost:4000/category1/ALM/" rel="alternate" type="text/html" title="애플리케이션 라이프사이클 관리(ALM)" /><published>2012-03-15T00:00:00+09:00</published><updated>2021-06-23T20:53:04+09:00</updated><id>http://localhost:4000/category1/ALM</id><content type="html" xml:base="http://localhost:4000/category1/ALM/">&lt;p&gt;자동차, 철도, 항공, 로봇 등 안전 필수 시스템(Safety Critical System) 들은 사고 발생시 큰 인명 및 재산 피해로 이어지기 때문에 개발 과정에 서 철저한 안전 활동이 요구된다. 특히, 시스템 내 SW의 역할이 중요해지 고 그 비중이 높아짐에 따라, 사고의 잠재적 원인인 해저드(Hazard)를 분 석하고 안전 요구사항을 도출하기 위한 노력이 필요하다. 이에 따라, 안 전성 확보가 필수적인 산업분야에서는 도메인별 특성에 맞는 기능 안전 표준을 제정하여 SW 안전 기준을 강화하고, 국제 표준 준수를 의무화하 고 있다.
+한편, 초지능, 초연결 시대에 진입하면서 머신러닝, 딥러닝 등 AI 기 술이 산업 전반에 활용되고 있으며, 개인지원 로봇 (Personal Care Robot) 의 자율 기능(autonomous function)에도 적용되고 있다. AI 기술은 자율성 을 갖추어 큰 편리함을 제공하지만, 전통적인 알고리즘 기반의 SW가 아 닌 데이터를 기반으로 학습을 통해 개발되는 SW이기 때문에, 기존과는 다른 안전성 확보 방안이 필요하다. AI 안전성 분야에서는 AI 실패를 예 방하기 위한 연구들을 수행해오고 있다. OECD와 EU 등 국제기구는 신뢰 가능(Trust worthy) AI 시스템 구축을 위한 지침을 제공하고 있으며, 자동 차 분야에서도 자율 주행 관련 안전성 표준인 SOTIF(Safety Of The Intended Function)를 개발 중이다.&lt;/p&gt;
+
+&lt;p&gt;하지만, 개인 지원 로봇의 자율 기능을 위한 안전성 연구는 많이 이 루어지지 않고 있다. 개인지원 로봇의 안전성 확보를 위해 개발된 표준인 ISO 13482는 Hazard 분석과 리스크 완화 방안을 위한 기본 틀을 제시하 고 있지만, 자율 의사결정 지침에서는 상위 수준의 가이드만 제시하고 있 다. 그러므로, 개인지원 로봇 분야의 실무자들을 지원하기 위해서는 기존 안전분석 기법과 더불어 자율 기능에 적용하기 위한 안전성 분석 프로세 스 및 가이드라인이 필요하다.&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;sidebar&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Title&quot;&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;/assets/images/your-image.jpg&quot;&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;image_alt&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;image&quot;&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Some&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;here.&quot;&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Another&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Title&quot;&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;More&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;here.&quot;&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;nav&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;sidebar-sample&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>작성자이름</name><email>작성자이메일@gmail.com</email></author><category term="category1" /><summary type="html">애플리케이션 라이프사이클 관리(ALM)</summary></entry><entry><title type="html">그림으로이해하는 테스팅기법</title><link href="http://localhost:4000/category1/Testing/" rel="alternate" type="text/html" title="그림으로이해하는 테스팅기법" /><published>2010-09-09T00:00:00+09:00</published><updated>2010-09-09T00:00:00+09:00</updated><id>http://localhost:4000/category1/Testing</id><content type="html" xml:base="http://localhost:4000/category1/Testing/">&lt;p&gt;These are gallery tests for image wrapped in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;figure&amp;gt;&lt;/code&gt; elements.&lt;/p&gt;
+
+&lt;p&gt;To place a gallery add the necessary YAML Front Matter:&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;gallery&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/assets/images/unsplash-gallery-image-1.jpg&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;image_path&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/assets/images/unsplash-gallery-image-1-th.jpg&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;placeholder&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;1&quot;&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Image&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;caption&quot;&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/assets/images/unsplash-gallery-image-2.jpg&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;image_path&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/assets/images/unsplash-gallery-image-2-th.jpg&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;placeholder&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;2&quot;&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Image&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;caption&quot;&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/assets/images/unsplash-gallery-image-3.jpg&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;image_path&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/assets/images/unsplash-gallery-image-3-th.jpg&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;placeholder&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;3&quot;&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Image&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;caption&quot;&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/assets/images/unsplash-gallery-image-4.jpg&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;image_path&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/assets/images/unsplash-gallery-image-4-th.jpg&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;placeholder&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;4&quot;&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Image&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;caption&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;자동차, 철도, 항공, 로봇 등 안전 필수 시스템(Safety Critical System) 들은 사고 발생시 큰 인명 및 재산 피해로 이어지기 때문에 개발 과정에 서 철저한 안전 활동이 요구된다. 특히, 시스템 내 SW의 역할이 중요해지 고 그 비중이 높아짐에 따라, 사고의 잠재적 원인인 해저드(Hazard)를 분 석하고 안전 요구사항을 도출하기 위한 노력이 필요하다. 이에 따라, 안 전성 확보가 필수적인 산업분야에서는 도메인별 특성에 맞는 기능 안전 표준을 제정하여 SW 안전 기준을 강화하고, 국제 표준 준수를 의무화하 고 있다.
+한편, 초지능, 초연결 시대에 진입하면서 머신러닝, 딥러닝 등 AI 기 술이 산업 전반에 활용되고 있으며, 개인지원 로봇 (Personal Care Robot) 의 자율 기능(autonomous function)에도 적용되고 있다. AI 기술은 자율성 을 갖추어 큰 편리함을 제공하지만, 전통적인 알고리즘 기반의 SW가 아 닌 데이터를 기반으로 학습을 통해 개발되는 SW이기 때문에, 기존과는 다른 안전성 확보 방안이 필요하다. AI 안전성 분야에서는 AI 실패를 예 방하기 위한 연구들을 수행해오고 있다. OECD와 EU 등 국제기구는 신뢰 가능(Trust worthy) AI 시스템 구축을 위한 지침을 제공하고 있으며, 자동 차 분야에서도 자율 주행 관련 안전성 표준인 SOTIF(Safety Of The Intended Function)를 개발 중이다.&lt;/p&gt;
+
+&lt;p&gt;하지만, 개인 지원 로봇의 자율 기능을 위한 안전성 연구는 많이 이 루어지지 않고 있다. 개인지원 로봇의 안전성 확보를 위해 개발된 표준인 ISO 13482는 Hazard 분석과 리스크 완화 방안을 위한 기본 틀을 제시하 고 있지만, 자율 의사결정 지침에서는 상위 수준의 가이드만 제시하고 있 다. 그러므로, 개인지원 로봇 분야의 실무자들을 지원하기 위해서는 기존 안전분석 기법과 더불어 자율 기능에 적용하기 위한 안전성 분석 프로세 스 및 가이드라인이 필요하다.&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;gallery2&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://flic.kr/p/8a6Ven&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;image_path&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://farm2.staticflickr.com/1272/4697500467_8294dac099_q.jpg&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Black&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;and&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;grays&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;hint&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;of&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;green&quot;&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://flic.kr/p/8a738X&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;image_path&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://farm5.staticflickr.com/4029/4697523701_249e93ba23_q.jpg&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Made&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;placement&quot;&lt;/span&gt;
+  &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://flic.kr/p/8a6VXP&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;image_path&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://farm5.staticflickr.com/4046/4697502929_72c612c636_q.jpg&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Fog&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;the&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;trees&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And place it like so:&lt;/p&gt;
+
+&lt;div class=&quot;language-liquid highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;gallery&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;gallery2&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;caption&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;This is a second gallery example with images hosted externally.&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;figure class=&quot;third &quot;&gt;
+  
+    
+      &lt;a href=&quot;https://flic.kr/p/8a6Ven&quot;&gt;
+          &lt;img src=&quot;https://farm2.staticflickr.com/1272/4697500467_8294dac099_q.jpg&quot; alt=&quot;Black and grays with a hint of green&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;https://flic.kr/p/8a738X&quot;&gt;
+          &lt;img src=&quot;https://farm5.staticflickr.com/4029/4697523701_249e93ba23_q.jpg&quot; alt=&quot;Made for open text placement&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;https://flic.kr/p/8a6VXP&quot;&gt;
+          &lt;img src=&quot;https://farm5.staticflickr.com/4046/4697502929_72c612c636_q.jpg&quot; alt=&quot;Fog in the trees&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+  
+    &lt;figcaption&gt;This is a second gallery example with images hosted externally.
+&lt;/figcaption&gt;
+  
+&lt;/figure&gt;
+
+&lt;p&gt;And for giggles one more gallery just to make sure this works. To fill page content container add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;class=&quot;full&quot;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;half full&quot;&gt;
+  
+    
+      &lt;img src=&quot;/assets/images/unsplash-gallery-image-2-th.jpg&quot; alt=&quot;placeholder image 2&quot; /&gt;
+    
+  
+    
+      &lt;img src=&quot;/assets/images/unsplash-gallery-image-4-th.jpg&quot; alt=&quot;placeholder image 4&quot; /&gt;
+    
+  
+  
+    &lt;figcaption&gt;This is a third gallery example with two images and fills the entire content container.
+&lt;/figcaption&gt;
+  
+&lt;/figure&gt;
+
+&lt;p&gt;Gallery column layout can be overrided by setting a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;layout&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-liquid highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;gallery&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;gallery&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;half&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;caption&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;This is a half gallery layout example.&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;figure class=&quot;half &quot;&gt;
+  
+    
+      &lt;a href=&quot;/assets/images/unsplash-gallery-image-1.jpg&quot; title=&quot;Image 1 title caption&quot;&gt;
+          &lt;img src=&quot;/assets/images/unsplash-gallery-image-1-th.jpg&quot; alt=&quot;placeholder image 1&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/unsplash-gallery-image-2.jpg&quot; title=&quot;Image 2 title caption&quot;&gt;
+          &lt;img src=&quot;/assets/images/unsplash-gallery-image-2-th.jpg&quot; alt=&quot;placeholder image 2&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/unsplash-gallery-image-3.jpg&quot; title=&quot;Image 3 title caption&quot;&gt;
+          &lt;img src=&quot;/assets/images/unsplash-gallery-image-3-th.jpg&quot; alt=&quot;placeholder image 3&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/unsplash-gallery-image-1.jpg&quot; title=&quot;Image 4 title caption&quot;&gt;
+          &lt;img src=&quot;/assets/images/unsplash-gallery-image-1-th.jpg&quot; alt=&quot;placeholder image 4&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/unsplash-gallery-image-2.jpg&quot; title=&quot;Image 5 title caption&quot;&gt;
+          &lt;img src=&quot;/assets/images/unsplash-gallery-image-2-th.jpg&quot; alt=&quot;placeholder image 5&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/unsplash-gallery-image-3.jpg&quot; title=&quot;Image 6 title caption&quot;&gt;
+          &lt;img src=&quot;/assets/images/unsplash-gallery-image-3-th.jpg&quot; alt=&quot;placeholder image 6&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/unsplash-gallery-image-1.jpg&quot; title=&quot;Image 7 title caption&quot;&gt;
+          &lt;img src=&quot;/assets/images/unsplash-gallery-image-1-th.jpg&quot; alt=&quot;placeholder image 7&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/unsplash-gallery-image-2.jpg&quot; title=&quot;Image 8 title caption&quot;&gt;
+          &lt;img src=&quot;/assets/images/unsplash-gallery-image-2-th.jpg&quot; alt=&quot;placeholder image 8&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/unsplash-gallery-image-3.jpg&quot; title=&quot;Image 9 title caption&quot;&gt;
+          &lt;img src=&quot;/assets/images/unsplash-gallery-image-3-th.jpg&quot; alt=&quot;placeholder image 9&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/unsplash-gallery-image-1.jpg&quot; title=&quot;Image 10 title caption&quot;&gt;
+          &lt;img src=&quot;/assets/images/unsplash-gallery-image-1-th.jpg&quot; alt=&quot;placeholder image 10&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/unsplash-gallery-image-2.jpg&quot; title=&quot;Image 11 title caption&quot;&gt;
+          &lt;img src=&quot;/assets/images/unsplash-gallery-image-2-th.jpg&quot; alt=&quot;placeholder image 11&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/unsplash-gallery-image-3.jpg&quot; title=&quot;Image 12 title caption&quot;&gt;
+          &lt;img src=&quot;/assets/images/unsplash-gallery-image-3-th.jpg&quot; alt=&quot;placeholder image 12&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+  
+    &lt;figcaption&gt;This is a half gallery layout example.
+&lt;/figcaption&gt;
+  
+&lt;/figure&gt;</content><author><name>작성자이름</name><email>작성자이메일@gmail.com</email></author><category term="category1" /><category term="tag1" /><category term="tag2" /><category term="tag3" /><summary type="html">These are gallery tests for image wrapped in &amp;lt;figure&amp;gt; elements.</summary></entry><entry><title type="html">레드마인 설치 및 사용방법</title><link href="http://localhost:4000/category1/category2/redmine/" rel="alternate" type="text/html" title="레드마인 설치 및 사용방법" /><published>2010-08-05T00:00:00+09:00</published><updated>2017-10-27T04:12:19+09:00</updated><id>http://localhost:4000/category1/category2/redmine</id><content type="html" xml:base="http://localhost:4000/category1/category2/redmine/">&lt;p&gt;자동차, 철도, 항공, 로봇 등 안전 필수 시스템(Safety Critical System) 들은 사고 발생시 큰 인명 및 재산 피해로 이어지기 때문에 개발 과정에 서 철저한 안전 활동이 요구된다. 특히, 시스템 내 SW의 역할이 중요해지 고 그 비중이 높아짐에 따라, 사고의 잠재적 원인인 해저드(Hazard)를 분 석하고 안전 요구사항을 도출하기 위한 노력이 필요하다. 이에 따라, 안 전성 확보가 필수적인 산업분야에서는 도메인별 특성에 맞는 기능 안전 표준을 제정하여 SW 안전 기준을 강화하고, 국제 표준 준수를 의무화하 고 있다.
+한편, 초지능, 초연결 시대에 진입하면서 머신러닝, 딥러닝 등 AI 기 술이 산업 전반에 활용되고 있으며, 개인지원 로봇 (Personal Care Robot) 의 자율 기능(autonomous function)에도 적용되고 있다. AI 기술은 자율성 을 갖추어 큰 편리함을 제공하지만, 전통적인 알고리즘 기반의 SW가 아 닌 데이터를 기반으로 학습을 통해 개발되는 SW이기 때문에, 기존과는 다른 안전성 확보 방안이 필요하다. AI 안전성 분야에서는 AI 실패를 예 방하기 위한 연구들을 수행해오고 있다. OECD와 EU 등 국제기구는 신뢰 가능(Trust worthy) AI 시스템 구축을 위한 지침을 제공하고 있으며, 자동 차 분야에서도 자율 주행 관련 안전성 표준인 SOTIF(Safety Of The Intended Function)를 개발 중이다.&lt;/p&gt;
+
+&lt;p&gt;하지만, 개인 지원 로봇의 자율 기능을 위한 안전성 연구는 많이 이 루어지지 않고 있다. 개인지원 로봇의 안전성 확보를 위해 개발된 표준인 ISO 13482는 Hazard 분석과 리스크 완화 방안을 위한 기본 틀을 제시하 고 있지만, 자율 의사결정 지침에서는 상위 수준의 가이드만 제시하고 있 다. 그러므로, 개인지원 로봇 분야의 실무자들을 지원하기 위해서는 기존 안전분석 기법과 더불어 자율 기능에 적용하기 위한 안전성 분석 프로세 스 및 가이드라인이 필요하다.&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;header&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;overlay_image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/assets/images/unsplash-image-1.jpg&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;og_image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/assets/images/page-header-og-image.png&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;caption&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Photo&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;credit:&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;[**Unsplash**](https://unsplash.com)&quot;&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;actions&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;label&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Learn&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;more&quot;&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;https://unsplash.com&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>작성자이름</name><email>작성자이메일@gmail.com</email></author><category term="category1" /><category term="category2" /><category term="tag1" /><category term="tag2" /><category term="tag6" /><summary type="html">자동차, 철도, 항공, 로봇 등 안전 필수 시스템(Safety Critical System) 들은 사고 발생시 큰 인명 및 재산 피해로 이어지기 때문에 개발 과정에 서 철저한 안전 활동이 요구된다. 특히, 시스템 내 SW의 역할이 중요해지 고 그 비중이 높아짐에 따라, 사고의 잠재적 원인인 해저드(Hazard)를 분 석하고 안전 요구사항을 도출하기 위한 노력이 필요하다. 이에 따라, 안 전성 확보가 필수적인 산업분야에서는 도메인별 특성에 맞는 기능 안전 표준을 제정하여 SW 안전 기준을 강화하고, 국제 표준 준수를 의무화하 고 있다. 한편, 초지능, 초연결 시대에 진입하면서 머신러닝, 딥러닝 등 AI 기 술이 산업 전반에 활용되고 있으며, 개인지원 로봇 (Personal Care Robot) 의 자율 기능(autonomous function)에도 적용되고 있다. AI 기술은 자율성 을 갖추어 큰 편리함을 제공하지만, 전통적인 알고리즘 기반의 SW가 아 닌 데이터를 기반으로 학습을 통해 개발되는 SW이기 때문에, 기존과는 다른 안전성 확보 방안이 필요하다. AI 안전성 분야에서는 AI 실패를 예 방하기 위한 연구들을 수행해오고 있다. OECD와 EU 등 국제기구는 신뢰 가능(Trust worthy) AI 시스템 구축을 위한 지침을 제공하고 있으며, 자동 차 분야에서도 자율 주행 관련 안전성 표준인 SOTIF(Safety Of The Intended Function)를 개발 중이다.</summary></entry><entry><title type="html">효율적인 오픈소스 관리법 (세미나영상)</title><link href="http://localhost:4000/category3_seminar/seminar-opensource/" rel="alternate" type="text/html" title="효율적인 오픈소스 관리법 (세미나영상)" /><published>2010-06-02T00:00:00+09:00</published><updated>2010-06-02T00:00:00+09:00</updated><id>http://localhost:4000/category3_seminar/seminar-opensource</id><content type="html" xml:base="http://localhost:4000/category3_seminar/seminar-opensource/">&lt;p&gt;YouTube video embed below.&lt;/p&gt;
+
+&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube-nocookie.com/embed/l2Of1-d5E5o?controls=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>작성자이름</name><email>작성자이메일@gmail.com</email></author><category term="category3_seminar" /><category term="tag1" /><category term="tag2" /><category term="tag3" /><category term="tag4" /><category term="tag5" /><category term="tag6" /><category term="tag7" /><summary type="html">YouTube video embed below.</summary></entry><entry><title type="html">블랙 박스 테스트와 화이트 박스 테스트의 주요 차이점</title><link href="http://localhost:4000/category2/blackbox/" rel="alternate" type="text/html" title="블랙 박스 테스트와 화이트 박스 테스트의 주요 차이점" /><published>2010-02-05T00:00:00+09:00</published><updated>2010-02-05T00:00:00+09:00</updated><id>http://localhost:4000/category2/blackbox</id><content type="html" xml:base="http://localhost:4000/category2/blackbox/">&lt;p&gt;블랙 박스 테스트와 화이트 박스 테스트&lt;/p&gt;
+
+&lt;p&gt;자동차, 철도, 항공, 로봇 등 안전 필수 시스템(Safety Critical System) 들은 사고 발생시 큰 인명 및 재산 피해로 이어지기 때문에 개발 과정에 서 철저한 안전 활동이 요구된다. 특히, 시스템 내 SW의 역할이 중요해지 고 그 비중이 높아짐에 따라, 사고의 잠재적 원인인 해저드(Hazard)를 분 석하고 안전 요구사항을 도출하기 위한 노력이 필요하다. 이에 따라, 안 전성 확보가 필수적인 산업분야에서는 도메인별 특성에 맞는 기능 안전 표준을 제정하여 SW 안전 기준을 강화하고, 국제 표준 준수를 의무화하 고 있다.
+한편, 초지능, 초연결 시대에 진입하면서 머신러닝, 딥러닝 등 AI 기 술이 산업 전반에 활용되고 있으며, 개인지원 로봇 (Personal Care Robot) 의 자율 기능(autonomous function)에도 적용되고 있다. AI 기술은 자율성 을 갖추어 큰 편리함을 제공하지만, 전통적인 알고리즘 기반의 SW가 아 닌 데이터를 기반으로 학습을 통해 개발되는 SW이기 때문에, 기존과는 다른 안전성 확보 방안이 필요하다. AI 안전성 분야에서는 AI 실패를 예 방하기 위한 연구들을 수행해오고 있다. OECD와 EU 등 국제기구는 신뢰 가능(Trust worthy) AI 시스템 구축을 위한 지침을 제공하고 있으며, 자동 차 분야에서도 자율 주행 관련 안전성 표준인 SOTIF(Safety Of The Intended Function)를 개발 중이다.&lt;/p&gt;
+
+&lt;p&gt;하지만, 개인 지원 로봇의 자율 기능을 위한 안전성 연구는 많이 이 루어지지 않고 있다. 개인지원 로봇의 안전성 확보를 위해 개발된 표준인 ISO 13482는 Hazard 분석과 리스크 완화 방안을 위한 기본 틀을 제시하 고 있지만, 자율 의사결정 지침에서는 상위 수준의 가이드만 제시하고 있 다. 그러므로, 개인지원 로봇 분야의 실무자들을 지원하기 위해서는 기존 안전분석 기법과 더불어 자율 기능에 적용하기 위한 안전성 분석 프로세 스 및 가이드라인이 필요하다.&lt;/p&gt;</content><author><name>작성자이름</name><email>작성자이메일@gmail.com</email></author><category term="category2" /><category term="tag1" /><category term="tag2" /><summary type="html">블랙 박스 테스트와 화이트 박스 테스트</summary></entry><entry><title type="html">초보자를위한 Atlassian Confluence 튜토리얼 : 2탄</title><link href="http://localhost:4000/category4/%EC%B4%88%EB%B3%B4%EC%9E%90-%EC%8D%B8%EB%84%A4%EC%9D%BC%EC%9E%88%EB%8A%94%EA%B2%BD%EC%9A%B0/" rel="alternate" type="text/html" title="초보자를위한 Atlassian Confluence 튜토리얼 : 2탄" /><published>2009-08-02T00:00:00+09:00</published><updated>2009-08-02T00:00:00+09:00</updated><id>http://localhost:4000/category4/%EC%B4%88%EB%B3%B4%EC%9E%90-%EC%8D%B8%EB%84%A4%EC%9D%BC%EC%9E%88%EB%8A%94%EA%B2%BD%EC%9A%B0</id><content type="html" xml:base="http://localhost:4000/category4/%EC%B4%88%EB%B3%B4%EC%9E%90-%EC%8D%B8%EB%84%A4%EC%9D%BC%EC%9E%88%EB%8A%94%EA%B2%BD%EC%9A%B0/">&lt;p&gt;한편, 초지능, 초연결 시대에 진입하면서 머신러닝, 딥러닝 등 AI 기 술이 산업 전반에 활용되고 있으며, 개인지원 로봇 (Personal Care Robot) 의 자율 기능(autonomous function)에도 적용되고 있다. AI 기술은 자율성 을 갖추어 큰 편리함을 제공하지만, 전통적인 알고리즘 기반의 SW가 아 닌 데이터를 기반으로 학습을 통해 개발되는 SW이기 때문에, 기존과는 다른 안전성 확보 방안이 필요하다. AI 안전성 분야에서는 AI 실패를 예 방하기 위한 연구들을 수행해오고 있다. OECD와 EU 등 국제기구는 신뢰 가능(Trust worthy) AI 시스템 구축을 위한 지침을 제공하고 있으며, 자동 차 분야에서도 자율 주행 관련 안전성 표준인 SOTIF(Safety Of The Intended Function)를 개발 중이다.&lt;/p&gt;
+
+&lt;p&gt;하지만, 개인 지원 로봇의 자율 기능을 위한 안전성 연구는 많이 이 루어지지 않고 있다. 개인지원 로봇의 안전성 확보를 위해 개발된 표준인 ISO 13482는 Hazard 분석과 리스크 완화 방안을 위한 기본 틀을 제시하 고 있지만, 자율 의사결정 지침에서는 상위 수준의 가이드만 제시하고 있 다. 그러므로, 개인지원 로봇 분야의 실무자들을 지원하기 위해서는 기존 안전분석 기법과 더불어 자율 기능에 적용하기 위한 안전성 분석 프로세 스 및 가이드라인이 필요하다.&lt;/p&gt;</content><author><name>작성자이름</name><email>작성자이메일@gmail.com</email></author><category term="category4" /><category term="tag1" /><category term="tag2" /><category term="tag3" /><category term="tag4" /><category term="tag5" /><category term="tag6" /><category term="tag7" /><summary type="html">한편, 초지능, 초연결 시대에 진입하면서 머신러닝, 딥러닝 등 AI 기 술이 산업 전반에 활용되고 있으며, 개인지원 로봇 (Personal Care Robot) 의 자율 기능(autonomous function)에도 적용되고 있다. AI 기술은 자율성 을 갖추어 큰 편리함을 제공하지만, 전통적인 알고리즘 기반의 SW가 아 닌 데이터를 기반으로 학습을 통해 개발되는 SW이기 때문에, 기존과는 다른 안전성 확보 방안이 필요하다. AI 안전성 분야에서는 AI 실패를 예 방하기 위한 연구들을 수행해오고 있다. OECD와 EU 등 국제기구는 신뢰 가능(Trust worthy) AI 시스템 구축을 위한 지침을 제공하고 있으며, 자동 차 분야에서도 자율 주행 관련 안전성 표준인 SOTIF(Safety Of The Intended Function)를 개발 중이다.</summary></entry><entry><title type="html">초보자를위한 Atlassian Confluence 튜토리얼 : 완전한 가이드</title><link href="http://localhost:4000/category2/confluence-tutorial-1/" rel="alternate" type="text/html" title="초보자를위한 Atlassian Confluence 튜토리얼 : 완전한 가이드" /><published>2009-07-02T00:00:00+09:00</published><updated>2009-07-02T00:00:00+09:00</updated><id>http://localhost:4000/category2/confluence-tutorial-1</id><content type="html" xml:base="http://localhost:4000/category2/confluence-tutorial-1/">&lt;p&gt;Atlassian Confluence Tutorial&lt;/p&gt;
+
+&lt;p&gt;초보자를위한 Atlassian Confluence 튜토리얼 :&lt;/p&gt;
+
+&lt;p&gt;자동차, 철도, 항공, 로봇 등 안전 필수 시스템(Safety Critical System) 들은 사고 발생시 큰 인명 및 재산 피해로 이어지기 때문에 개발 과정에 서 철저한 안전 활동이 요구된다. 특히, 시스템 내 SW의 역할이 중요해지 고 그 비중이 높아짐에 따라, 사고의 잠재적 원인인 해저드(Hazard)를 분 석하고 안전 요구사항을 도출하기 위한 노력이 필요하다. 이에 따라, 안 전성 확보가 필수적인 산업분야에서는 도메인별 특성에 맞는 기능 안전 표준을 제정하여 SW 안전 기준을 강화하고, 국제 표준 준수를 의무화하 고 있다.
+한편, 초지능, 초연결 시대에 진입하면서 머신러닝, 딥러닝 등 AI 기 술이 산업 전반에 활용되고 있으며, 개인지원 로봇 (Personal Care Robot) 의 자율 기능(autonomous function)에도 적용되고 있다. AI 기술은 자율성 을 갖추어 큰 편리함을 제공하지만, 전통적인 알고리즘 기반의 SW가 아 닌 데이터를 기반으로 학습을 통해 개발되는 SW이기 때문에, 기존과는 다른 안전성 확보 방안이 필요하다. AI 안전성 분야에서는 AI 실패를 예 방하기 위한 연구들을 수행해오고 있다. OECD와 EU 등 국제기구는 신뢰 가능(Trust worthy) AI 시스템 구축을 위한 지침을 제공하고 있으며, 자동 차 분야에서도 자율 주행 관련 안전성 표준인 SOTIF(Safety Of The Intended Function)를 개발 중이다.&lt;/p&gt;
+
+&lt;p&gt;하지만, 개인 지원 로봇의 자율 기능을 위한 안전성 연구는 많이 이 루어지지 않고 있다. 개인지원 로봇의 안전성 확보를 위해 개발된 표준인 ISO 13482는 Hazard 분석과 리스크 완화 방안을 위한 기본 틀을 제시하 고 있지만, 자율 의사결정 지침에서는 상위 수준의 가이드만 제시하고 있 다. 그러므로, 개인지원 로봇 분야의 실무자들을 지원하기 위해서는 기존 안전분석 기법과 더불어 자율 기능에 적용하기 위한 안전성 분석 프로세 스 및 가이드라인이 필요하다.&lt;/p&gt;
+
+&lt;p&gt;YouTube video embed below.&lt;/p&gt;
+
+&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube-nocookie.com/embed/l2Of1-d5E5o?controls=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>작성자이름</name><email>작성자이메일@gmail.com</email></author><category term="category2" /><category term="tag1" /><category term="tag2" /><category term="tag3" /><category term="tag4" /><category term="tag5" /><category term="tag6" /><category term="tag7" /><summary type="html">Atlassian Confluence Tutorial</summary></entry></feed>

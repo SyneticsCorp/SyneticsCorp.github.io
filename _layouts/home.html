@@ -1,0 +1,143 @@
+---
+layout: default
+sidebar-right : true <!--오른쪾 사이드바 활성화-->
+---
+{{ content }}
+<!-- 배너이미지 영역 -->
+<!--lyj_가이드_메인 홈에 들어가는 내용 -->
+  <!-- lyj_메인배너이미지 -->
+  <div class="page__hero--overlay" style="background-image: url('/assets/images/main_home.png'); background-color: #2A2F38;">
+
+    <!-- <div class="relative landing-hero pb-24 layout contianer page__hero--overlay" style="background-color: #4094AE;"> -->
+    <div class="layout-container">
+      <div class="wrapper">
+        <h1 id="page-title" class="page__title" itemprop="headline" style="color: white;">
+          "기능안전 SW 개발을 위한 ALM 구축 전문 기업"
+        </h1>
+        <p class="site-subtitle" style="color: rgb(248, 246, 246);">"시네틱스는 Automotive, 철도, 항공 SW 개발을 위한 지속적 통합과 빌드 가상화 컨설팅과 교육을 제공합니다."<br>
+        </p>
+        <p>
+          <!--가이드> 자세히보기 링크 -> 소개 페이지로 연결 -->
+          <a href="{{site.baseurl}}/about" class="btn btn--info">자세히보기</a>
+        </p>
+      </div>
+
+      <!-- <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1" style="display: flex; justify-content: flex-end;">
+    <div></div>
+    <h4>Jenkins를 통한 지속적 통합</h4> -->
+    </div>
+  </div>
+
+
+
+<!-- --------------------------------------소개--------------------------------- -->
+
+  <!--lyj_버튼 스타일의 솔루션 영역 -->
+
+  <div class="container pt-0 pb-0 mt-10 mb-2rem position-relative text-center">
+    <h1>시네틱스가 제공하는 솔루션</h1>
+    <p>레드마인은버그 추적, 이슈 추적, 프로젝트 관리 기능을 제공하는 소프트웨어이다. 소프트웨어 테스트는 주요 이해관계자들에게 시험 대상 제품 또는 서비스의
+      품질에 관한 정보를 제공하는 조사 과정이다. .</p>
+
+  </div>
+
+  <div class="layout-container">
+    <div class="d-flex justify-content-around text-center">
+      <h3 class="btn-outline-info cursor-pointer">
+        솔루션1<span class="hidden lg:inline-block">솔루션1 타이틀</span></h3>
+      <h3
+        class="btn-outline-info cursor-pointer flex-grow-0 flex-shrink-0">
+        솔루션2<span class="hidden lg:inline-block">솔루션2 타이틀</span></h3>
+      <h3
+        class="btn-outline-info cursor-pointer flex-grow-0 flex-shrink-0">
+        솔루션3<span class="hidden lg:inline-block">솔루션3 타이틀</span></h3>
+    </div>
+ 
+    <div class="text-center"
+      style=" padding:20px 0 20px 0; margin: 0px 40px 0px 40px; background-color: rgb(241, 241, 241);">
+      <div class="mt-5 mb-2rem bg-gray-10 wrapper">
+        <h3 class="mt-1">솔루션에 대한 타이틀</h3>
+        <p class="mt-2">Automotive, 철도, 항공 SW 개발을 위한 지속적 통합과 빌드 가상화 컨설팅과 교육을 제공합니다.</p>
+      </div>
+
+      <!-- lyj_자세히 보기 링크 -->
+      <small><a href="{{site.baseurl}}/about" class="nav__readmore"
+        flex; justify-content: flex-end; padding-bottom:32px padding-right: 20px;">자세히보기
+        <span class="icon" aria-hidden="false" role="presentation" style="height:20px;width:20px;min-width:20px"><svg
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="line-icon">
+            <path
+              d="M9.8 17.4c-.2 0-.5-.1-.6-.3-.4-.4-.4-.9 0-1.3L13 12 9.1 8.1c-.4-.4-.4-.9 0-1.3s.9-.4 1.3 0l4.5 4.5c.4.4.4.9 0 1.3l-4.5 4.5c-.2.2-.4.3-.6.3"
+              fill-rule="evenodd" clip-rule="evenodd" fill="#b0b8c1"></path>
+          </svg></span></a></small>
+
+    </div>
+  </div>
+
+
+
+
+
+<!-- ---------------------------------------글목록------------------------------------------------- -->
+  <div class="container">
+<div class="row mt-4">
+<!-- lyj_col-md-8 // 사이드바 col-md-4 -->
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="col-md-8 main-loop">
+
+
+ <!-- lyj_best 글 리스트 -->
+    <!-- 1.가장 많이본글 1개 / md 포스트 작성시, 헤더에 mostRead : true 지정 -->
+      <!-- 구글 애널리틱스를 이용한 방법은 다음 참고 > https://github.com/stevejarvis/jekyll-popular-posts/blob/master/README.md 추가 플러그인 필요 -->
+ <section class="featuredposts">
+  <h3 class="font-weight-bold spanborder"><span>Best</span></h3>
+  {%- assign most_read = site.posts | where: 'mostRead', true -%}
+  {%- for post in most_read limit: 3 -%}
+  {% include archive-single.html type="entries_layout" %}
+  {% endfor %}
+  </section>
+  
+   <!-- lyj_추천 글 리스트 -->
+        <!-- 2.추천글 3개/ md 포스트 작성시, 헤더에 featuredPost : true 지정-->
+ <section class="featuredposts">
+  <h3 class="font-weight-bold spanborder"><span>추천 글</span></h3>
+  {%- assign most_read = site.posts | where: 'mostRead', true -%}
+  {%- for post in most_read limit: 3 -%}
+  {% include archive-single.html type="entries_layout" %}
+  {% endfor %}
+</section>
+
+
+ 
+
+
+</div>
+
+
+<!-- lyj_우측 사이드바 추가 -->
+<div class="col-md-4">
+  {% include sidebar-right.html %}</div>
+  
+
+
+</div>
+  <!-- lyj_컨설팅 및 교육 문의 영역 -->
+  <div class="mb-4">
+				<span class="taglist">
+				
+				</span>
+			</div>
+  <div class="splash" style="text-align: center;">
+    <section class="page__hero--overlay" style="margin-top:60px;">
+      <h2 class=">컨설팅과 교육을 찾으시나요?<span class=" bar">&nbsp;</span><span class="program_sub_title">컨설팅 및 교육
+          문의</span></h2>
+  
+      <div style="display: inline-block;     position: relative; vertical-align: top; margin-top: 40px;">
+        <a href="/contact" rel="permalink" class="btn btn--info"><i class="fa fa-envelope"></i>&nbsp;이메일</a>
+        <a href="tel:010-9088-9058" class="btn btn--info" ><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;전화</a>
+      </div>
+    </section>
+  </div>
+</div>
+
+
+

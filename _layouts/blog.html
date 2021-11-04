@@ -1,0 +1,100 @@
+---
+layout: default
+sidebar-right : true <!--오른쪾 사이드바 활성화-->
+pagination:
+  enabled: true
+---
+<!--블로그 페이지 레이아웃  -->
+<!-- .md 파일에 header: 이미지를 지정하는경우, 배너 및 히어로 삽입 -->
+<div class="page__hero--overlay" style="background-image: url('{{page.header.overlay_image}}');">
+  <div class="layout-container">
+  <div class="wrapper">
+    
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        {{page.title}} </h1>
+      <p class="desc_intro">{{page.image_description}}</p>
+    </div>
+  </div>
+
+  <!-- <img src="{{page.header.overlay_image}}" class="page__hero-image" alt=""> -->
+
+</div>
+
+{% if page.url != "/" and site.breadcrumbs %}
+{% unless paginator %}
+{% include breadcrumbs.html %}
+{% endunless %}
+{% endif %}
+
+{{ content }}
+<!-- 배너이미지 영역 -->
+<!--lyj_가이드_메인 홈에 들어가는 내용들은 index.md의 내용을 수정해야함 -->
+
+
+<div class="container">
+<div class="row mt-3">
+
+
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
+
+
+<!-- lyj_col-md-8 // 사이드바 col-md-4 -->
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="col-md-8 main-loop">
+
+ 
+ <!-- lyj_best 글 리스트 -->
+ <section class="featuredposts">
+  <h3 class="font-weight-bold spanborder"><span>Best</span></h3>
+  {%- assign most_read = site.posts | where: 'mostRead', true -%}
+  {%- for post in most_read limit: 3 -%}
+  {% include archive-single.html type="entries_layout" %}
+  {% endfor %}
+</section>
+ 
+ 
+<!-- lyj_최신글 -->
+<section class="recentposts">
+<h3 class="font-weight-bold spanborder">
+  <span>최근 올라온 글</span></h3>
+{% for post in posts %}
+  {% include archive-single.html type=entries_layout %}
+{% endfor %}
+<!-- lyj_todo_페이지네잉션 -->
+{% if paginator %}
+      {% assign posts = paginator.posts %}
+      {% else %}
+      {% assign posts = site.posts %}
+      {% endif %}
+  {% include paginator.html %}
+
+</section>
+
+  <!-- lyj_best 글 리스트 -->
+  <section class="postsrelatedtoseminar">
+    <h3 class="font-weight-bold spanborder"><span>교육 및 세미나</span></h3>
+    {% for post in posts %}
+          {% if post.categories contains "category3_seminar" %}
+          {% include   archive-single.html type="entries_layout" %}
+          {% endif %}
+          {% endfor %}
+  </section>
+   
+
+
+
+</div>
+
+
+<!-- lyj_우측 사이드바 추가 -->
+<div class="col-md-4">
+  {% include sidebar-right.html %}</div>
+  
+
+{% include paginator.html %}
+</div>
+</div>
