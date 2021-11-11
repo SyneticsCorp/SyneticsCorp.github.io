@@ -1,0 +1,174 @@
+I"�2<p>These are gallery tests for image wrapped in <code class="language-plaintext highlighter-rouge">&lt;figure&gt;</code> elements.</p>
+
+<p>To place a gallery add the necessary YAML Front Matter:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">gallery</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">url</span><span class="pi">:</span> <span class="s">/assets/images/unsplash-gallery-image-1.jpg</span>
+    <span class="na">image_path</span><span class="pi">:</span> <span class="s">/assets/images/unsplash-gallery-image-1-th.jpg</span>
+    <span class="na">alt</span><span class="pi">:</span> <span class="s2">"</span><span class="s">placeholder</span><span class="nv"> </span><span class="s">image</span><span class="nv"> </span><span class="s">1"</span>
+    <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Image</span><span class="nv"> </span><span class="s">1</span><span class="nv"> </span><span class="s">title</span><span class="nv"> </span><span class="s">caption"</span>
+  <span class="pi">-</span> <span class="na">url</span><span class="pi">:</span> <span class="s">/assets/images/unsplash-gallery-image-2.jpg</span>
+    <span class="na">image_path</span><span class="pi">:</span> <span class="s">/assets/images/unsplash-gallery-image-2-th.jpg</span>
+    <span class="na">alt</span><span class="pi">:</span> <span class="s2">"</span><span class="s">placeholder</span><span class="nv"> </span><span class="s">image</span><span class="nv"> </span><span class="s">2"</span>
+    <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Image</span><span class="nv"> </span><span class="s">2</span><span class="nv"> </span><span class="s">title</span><span class="nv"> </span><span class="s">caption"</span>
+  <span class="pi">-</span> <span class="na">url</span><span class="pi">:</span> <span class="s">/assets/images/unsplash-gallery-image-3.jpg</span>
+    <span class="na">image_path</span><span class="pi">:</span> <span class="s">/assets/images/unsplash-gallery-image-3-th.jpg</span>
+    <span class="na">alt</span><span class="pi">:</span> <span class="s2">"</span><span class="s">placeholder</span><span class="nv"> </span><span class="s">image</span><span class="nv"> </span><span class="s">3"</span>
+    <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Image</span><span class="nv"> </span><span class="s">3</span><span class="nv"> </span><span class="s">title</span><span class="nv"> </span><span class="s">caption"</span>
+  <span class="pi">-</span> <span class="na">url</span><span class="pi">:</span> <span class="s">/assets/images/unsplash-gallery-image-4.jpg</span>
+    <span class="na">image_path</span><span class="pi">:</span> <span class="s">/assets/images/unsplash-gallery-image-4-th.jpg</span>
+    <span class="na">alt</span><span class="pi">:</span> <span class="s2">"</span><span class="s">placeholder</span><span class="nv"> </span><span class="s">image</span><span class="nv"> </span><span class="s">4"</span>
+    <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Image</span><span class="nv"> </span><span class="s">4</span><span class="nv"> </span><span class="s">title</span><span class="nv"> </span><span class="s">caption"</span>
+</code></pre></div></div>
+
+<p>자동차, 철도, 항공, 로봇 등 안전 필수 시스템(Safety Critical System) 들은 사고 발생시 큰 인명 및 재산 피해로 이어지기 때문에 개발 과정에 서 철저한 안전 활동이 요구된다. 특히, 시스템 내 SW의 역할이 중요해지 고 그 비중이 높아짐에 따라, 사고의 잠재적 원인인 해저드(Hazard)를 분 석하고 안전 요구사항을 도출하기 위한 노력이 필요하다. 이에 따라, 안 전성 확보가 필수적인 산업분야에서는 도메인별 특성에 맞는 기능 안전 표준을 제정하여 SW 안전 기준을 강화하고, 국제 표준 준수를 의무화하 고 있다.
+한편, 초지능, 초연결 시대에 진입하면서 머신러닝, 딥러닝 등 AI 기 술이 산업 전반에 활용되고 있으며, 개인지원 로봇 (Personal Care Robot) 의 자율 기능(autonomous function)에도 적용되고 있다. AI 기술은 자율성 을 갖추어 큰 편리함을 제공하지만, 전통적인 알고리즘 기반의 SW가 아 닌 데이터를 기반으로 학습을 통해 개발되는 SW이기 때문에, 기존과는 다른 안전성 확보 방안이 필요하다. AI 안전성 분야에서는 AI 실패를 예 방하기 위한 연구들을 수행해오고 있다. OECD와 EU 등 국제기구는 신뢰 가능(Trust worthy) AI 시스템 구축을 위한 지침을 제공하고 있으며, 자동 차 분야에서도 자율 주행 관련 안전성 표준인 SOTIF(Safety Of The Intended Function)를 개발 중이다.</p>
+
+<p>하지만, 개인 지원 로봇의 자율 기능을 위한 안전성 연구는 많이 이 루어지지 않고 있다. 개인지원 로봇의 안전성 확보를 위해 개발된 표준인 ISO 13482는 Hazard 분석과 리스크 완화 방안을 위한 기본 틀을 제시하 고 있지만, 자율 의사결정 지침에서는 상위 수준의 가이드만 제시하고 있 다. 그러므로, 개인지원 로봇 분야의 실무자들을 지원하기 위해서는 기존 안전분석 기법과 더불어 자율 기능에 적용하기 위한 안전성 분석 프로세 스 및 가이드라인이 필요하다.</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">gallery2</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">url</span><span class="pi">:</span> <span class="s">https://flic.kr/p/8a6Ven</span>
+    <span class="na">image_path</span><span class="pi">:</span> <span class="s">https://farm2.staticflickr.com/1272/4697500467_8294dac099_q.jpg</span>
+    <span class="na">alt</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Black</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">grays</span><span class="nv"> </span><span class="s">with</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">hint</span><span class="nv"> </span><span class="s">of</span><span class="nv"> </span><span class="s">green"</span>
+  <span class="pi">-</span> <span class="na">url</span><span class="pi">:</span> <span class="s">https://flic.kr/p/8a738X</span>
+    <span class="na">image_path</span><span class="pi">:</span> <span class="s">https://farm5.staticflickr.com/4029/4697523701_249e93ba23_q.jpg</span>
+    <span class="na">alt</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Made</span><span class="nv"> </span><span class="s">for</span><span class="nv"> </span><span class="s">open</span><span class="nv"> </span><span class="s">text</span><span class="nv"> </span><span class="s">placement"</span>
+  <span class="pi">-</span> <span class="na">url</span><span class="pi">:</span> <span class="s">https://flic.kr/p/8a6VXP</span>
+    <span class="na">image_path</span><span class="pi">:</span> <span class="s">https://farm5.staticflickr.com/4046/4697502929_72c612c636_q.jpg</span>
+    <span class="na">alt</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Fog</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">trees"</span>
+</code></pre></div></div>
+
+<p>And place it like so:</p>
+
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span><span class="nv">gallery</span><span class="w"> </span><span class="na">id</span><span class="o">=</span><span class="s2">"gallery2"</span><span class="w"> </span><span class="na">caption</span><span class="o">=</span><span class="s2">"This is a second gallery example with images hosted externally."</span><span class="w"> </span><span class="p">%}</span>
+</code></pre></div></div>
+
+<figure class="third ">
+  
+    
+      <a href="https://flic.kr/p/8a6Ven">
+          <img src="https://farm2.staticflickr.com/1272/4697500467_8294dac099_q.jpg" alt="Black and grays with a hint of green" />
+      </a>
+    
+  
+    
+      <a href="https://flic.kr/p/8a738X">
+          <img src="https://farm5.staticflickr.com/4029/4697523701_249e93ba23_q.jpg" alt="Made for open text placement" />
+      </a>
+    
+  
+    
+      <a href="https://flic.kr/p/8a6VXP">
+          <img src="https://farm5.staticflickr.com/4046/4697502929_72c612c636_q.jpg" alt="Fog in the trees" />
+      </a>
+    
+  
+  
+    <figcaption>This is a second gallery example with images hosted externally.
+</figcaption>
+  
+</figure>
+
+<p>And for giggles one more gallery just to make sure this works. To fill page content container add <code class="language-plaintext highlighter-rouge">class="full"</code>.</p>
+
+<figure class="half full">
+  
+    
+      <img src="/assets/images/unsplash-gallery-image-2-th.jpg" alt="placeholder image 2" />
+    
+  
+    
+      <img src="/assets/images/unsplash-gallery-image-4-th.jpg" alt="placeholder image 4" />
+    
+  
+  
+    <figcaption>This is a third gallery example with two images and fills the entire content container.
+</figcaption>
+  
+</figure>
+
+<p>Gallery column layout can be overrided by setting a <code class="language-plaintext highlighter-rouge">layout</code>.</p>
+
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span><span class="nv">gallery</span><span class="w"> </span><span class="na">id</span><span class="o">=</span><span class="s2">"gallery"</span><span class="w"> </span><span class="na">layout</span><span class="o">=</span><span class="s2">"half"</span><span class="w"> </span><span class="na">caption</span><span class="o">=</span><span class="s2">"This is a half gallery layout example."</span><span class="w"> </span><span class="p">%}</span>
+</code></pre></div></div>
+
+<figure class="half ">
+  
+    
+      <a href="/assets/images/unsplash-gallery-image-1.jpg" title="Image 1 title caption">
+          <img src="/assets/images/unsplash-gallery-image-1-th.jpg" alt="placeholder image 1" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/unsplash-gallery-image-2.jpg" title="Image 2 title caption">
+          <img src="/assets/images/unsplash-gallery-image-2-th.jpg" alt="placeholder image 2" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/unsplash-gallery-image-3.jpg" title="Image 3 title caption">
+          <img src="/assets/images/unsplash-gallery-image-3-th.jpg" alt="placeholder image 3" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/unsplash-gallery-image-1.jpg" title="Image 4 title caption">
+          <img src="/assets/images/unsplash-gallery-image-1-th.jpg" alt="placeholder image 4" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/unsplash-gallery-image-2.jpg" title="Image 5 title caption">
+          <img src="/assets/images/unsplash-gallery-image-2-th.jpg" alt="placeholder image 5" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/unsplash-gallery-image-3.jpg" title="Image 6 title caption">
+          <img src="/assets/images/unsplash-gallery-image-3-th.jpg" alt="placeholder image 6" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/unsplash-gallery-image-1.jpg" title="Image 7 title caption">
+          <img src="/assets/images/unsplash-gallery-image-1-th.jpg" alt="placeholder image 7" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/unsplash-gallery-image-2.jpg" title="Image 8 title caption">
+          <img src="/assets/images/unsplash-gallery-image-2-th.jpg" alt="placeholder image 8" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/unsplash-gallery-image-3.jpg" title="Image 9 title caption">
+          <img src="/assets/images/unsplash-gallery-image-3-th.jpg" alt="placeholder image 9" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/unsplash-gallery-image-1.jpg" title="Image 10 title caption">
+          <img src="/assets/images/unsplash-gallery-image-1-th.jpg" alt="placeholder image 10" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/unsplash-gallery-image-2.jpg" title="Image 11 title caption">
+          <img src="/assets/images/unsplash-gallery-image-2-th.jpg" alt="placeholder image 11" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/unsplash-gallery-image-3.jpg" title="Image 12 title caption">
+          <img src="/assets/images/unsplash-gallery-image-3-th.jpg" alt="placeholder image 12" />
+      </a>
+    
+  
+  
+    <figcaption>This is a half gallery layout example.
+</figcaption>
+  
+</figure>
+:ET

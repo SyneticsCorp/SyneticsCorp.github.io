@@ -1,5 +1,6 @@
 {% if page.previous or page.next %}
-  <nav class="pagination">
+<!-- 이전, 다음 페이지 버튼 -->
+  <nav class="pagination" style="float: none;">
     {% if page.previous %}
       <a href="{{ page.previous.url | relative_url }}" class="pagination--pager" title="{{ page.previous.title | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
     {% else %}

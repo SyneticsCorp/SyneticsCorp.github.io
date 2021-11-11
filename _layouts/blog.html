@@ -47,11 +47,11 @@ pagination:
 <div class="col-md-8 main-loop">
 
  
- <!-- lyj_best 글 리스트 -->
+ <!-- lyj_best 글 리스트 1개 -->
  <section class="featuredposts">
   <h3 class="font-weight-bold spanborder"><span>Best</span></h3>
   {%- assign most_read = site.posts | where: 'mostRead', true -%}
-  {%- for post in most_read limit: 3 -%}
+  {%- for post in most_read limit: 1 -%}
   {% include archive-single.html type="entries_layout" %}
   {% endfor %}
 </section>
@@ -74,7 +74,7 @@ pagination:
 
 </section>
 
-  <!-- lyj_best 글 리스트 -->
+  <!-- lyj_교육 및 세미나 글 리스트 -->
   <section class="postsrelatedtoseminar">
     <h3 class="font-weight-bold spanborder"><span>교육 및 세미나</span></h3>
     {% for post in posts %}

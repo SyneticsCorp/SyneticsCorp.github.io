@@ -1,0 +1,178 @@
+I"}
+<div>
+  
+  <div class="list__item mb-5 d-flex justify-content-between main-loop-card border-bottom border-color: #e8f3ec" style="padding-left: 16px; padding-right: 16px;">
+    <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+
+      
+      <!-- 그리드 타입인경우 -->
+      
+
+
+
+      <!-- 카테고리목록 -->
+      
+<!-- 해당포스트의 카테고리 출력 -->
+<!-- category-list > 사이트내 카테고리 목록 -->
+
+
+<!-- lyj_상단카테고리 표시-->
+<p>
+  <i class="fas fa-fw fa-folder-open " style="color: lightslategray;"></i>
+  
+  <span class="catlist">
+    <a class="sscroll text-info" href="/categories/category4" style="color: lightslategray; font-size:smaller;">category4</a></span>
+  
+  
+</p>
+
+
+
+
+      <h3 class="mb-2 h4 font-weight-bold">
+        
+        <a href="/category4/SW-Testing/" rel="permalink">소프트웨어 테스팅이란?
+</a>
+        
+      </h3>
+      <!-- 글 요약 -->
+      <p class="archive__item-excerpt" itemprop="description">소프트웨어 테스팅이란 무엇입니까?
+소프트웨어 테스트는 실제 결과가 예상 결과와 일치하는지 확인하고 소프트웨어 시스템에 결함 이 없는지 확인하는 활동 입니다. 하나 이상의 관심 속성을 평가하기위한 소프트웨어 구성 요소 또는 시스템...</p>
+    <!-- 태그 목록 -->
+    <!-- lyj_해당 포스트의 태그를 출력함 -->
+<!-- tag-list > 사이트내 태그 목록 -->
+
+
+
+
+
+
+
+<p>
+  
+
+  
+  <span class="page__tag">
+    <a class="pr-1 pl-1 mr-1 ml-1" href="/tags/#{tag_word }}">#tag1</a> </span>
+    
+  <span class="page__tag">
+    <a class="pr-1 pl-1 mr-1 ml-1" href="/tags/#{tag_word }}">#tag2</a> </span>
+    
+  <span class="page__tag">
+    <a class="pr-1 pl-1 mr-1 ml-1" href="/tags/#{tag_word }}">#tag3</a> </span>
+    
+  <span class="page__tag">
+    <a class="pr-1 pl-1 mr-1 ml-1" href="/tags/#{tag_word }}">#tag4</a> </span>
+    
+  <span class="page__tag">
+    <a class="pr-1 pl-1 mr-1 ml-1" href="/tags/#{tag_word }}">#tag5</a> </span>
+    
+  <span class="page__tag">
+    <a class="pr-1 pl-1 mr-1 ml-1" href="/tags/#{tag_word }}">#tag6</a> </span>
+    
+  <span class="page__tag">
+    <a class="pr-1 pl-1 mr-1 ml-1" href="/tags/#{tag_word }}">#tag7</a> </span>
+    
+    
+
+ 
+</p>
+
+
+      
+  </article>
+  
+</div>  
+
+
+
+
+<div>
+  
+  <div class="list__item mb-5 d-flex justify-content-between main-loop-card border-bottom border-color: #e8f3ec" style="padding-left: 16px; padding-right: 16px;">
+    <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+
+      
+      <!-- 그리드 타입인경우 -->
+      
+
+
+
+      <!-- 카테고리목록 -->
+      
+<!-- 해당포스트의 카테고리 출력 -->
+<!-- category-list > 사이트내 카테고리 목록 -->
+
+
+<!-- lyj_상단카테고리 표시-->
+<p>
+  <i class="fas fa-fw fa-folder-open " style="color: lightslategray;"></i>
+  
+  <span class="catlist">
+    <a class="sscroll text-info" href="/categories/category4" style="color: lightslategray; font-size:smaller;">category4</a></span>
+  
+  
+</p>
+
+
+
+
+      <h3 class="mb-2 h4 font-weight-bold">
+        
+        <a href="/category4/%EC%B4%88%EB%B3%B4%EC%9E%90-%EC%8D%B8%EB%84%A4%EC%9D%BC%EC%9E%88%EB%8A%94%EA%B2%BD%EC%9A%B0/" rel="permalink">초보자를위한 Atlassian Confluence 튜토리얼 : 2탄
+</a>
+        
+      </h3>
+      <!-- 글 요약 -->
+      <p class="archive__item-excerpt" itemprop="description">한편, 초지능, 초연결 시대에 진입하면서 머신러닝, 딥러닝 등 AI 기 술이 산업 전반에 활용되고 있으며, 개인지원 로봇 (Personal Care Robot) 의 자율 기능(autonomous function)에도 적용되고 있...</p>
+    <!-- 태그 목록 -->
+    <!-- lyj_해당 포스트의 태그를 출력함 -->
+<!-- tag-list > 사이트내 태그 목록 -->
+
+
+
+
+
+
+
+<p>
+  
+
+  
+  <span class="page__tag">
+    <a class="pr-1 pl-1 mr-1 ml-1" href="/tags/#{tag_word }}">#tag1</a> </span>
+    
+  <span class="page__tag">
+    <a class="pr-1 pl-1 mr-1 ml-1" href="/tags/#{tag_word }}">#tag2</a> </span>
+    
+  <span class="page__tag">
+    <a class="pr-1 pl-1 mr-1 ml-1" href="/tags/#{tag_word }}">#tag3</a> </span>
+    
+  <span class="page__tag">
+    <a class="pr-1 pl-1 mr-1 ml-1" href="/tags/#{tag_word }}">#tag4</a> </span>
+    
+  <span class="page__tag">
+    <a class="pr-1 pl-1 mr-1 ml-1" href="/tags/#{tag_word }}">#tag5</a> </span>
+    
+  <span class="page__tag">
+    <a class="pr-1 pl-1 mr-1 ml-1" href="/tags/#{tag_word }}">#tag6</a> </span>
+    
+  <span class="page__tag">
+    <a class="pr-1 pl-1 mr-1 ml-1" href="/tags/#{tag_word }}">#tag7</a> </span>
+    
+    
+
+ 
+</p>
+
+
+      
+  </article>
+  
+</div> 
+
+<!-- testct1 라는 카테고리를 가진 포스트들만 모아서 한번에 보여줄 수 있는 이지를 만든다. 📂pages 폴더> 📂categories 라는 폴더> 이 안에 런 카테고리들만 가진 포스트들을 나열하여 보여 줄 수 있는 마크다운 파일을 만들어 정리. permalink의 주소로 접근가능함-->
+
+<!-- !!! site.categories.카테고리명 // 포스트에 등록한 카테고리와 동일해야함 // 카테고리 파일명과 카테고리를 동일하게 작성하여 관리하도록함-->
+</div></div>
+:ET

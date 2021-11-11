@@ -1,4 +1,91 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-11-03T05:36:47+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html"> </title><subtitle>기능안전 SW 개발을 위한 ALM 구축 전문 기업</subtitle><author><name>작성자이름</name><email>작성자이메일@gmail.com</email></author><entry><title type="html">소프트웨어 테스팅이란?</title><link href="http://localhost:4000/category4/SW-Testing/" rel="alternate" type="text/html" title="소프트웨어 테스팅이란?" /><published>2021-10-02T00:00:00+09:00</published><updated>2021-10-02T00:00:00+09:00</updated><id>http://localhost:4000/category4/SW-Testing</id><content type="html" xml:base="http://localhost:4000/category4/SW-Testing/">&lt;p&gt;소프트웨어 테스팅이란 무엇입니까?
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-11-11T15:34:03+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html"> </title><subtitle>기능안전 SW 개발을 위한 ALM 구축 전문 기업</subtitle><author><name>작성자이름</name><email>작성자이메일@gmail.com</email></author><entry><title type="html">포스팅 템플릿</title><link href="http://localhost:4000/category2/templates/" rel="alternate" type="text/html" title="포스팅 템플릿" /><published>2021-11-11T00:00:00+09:00</published><updated>2021-11-11T00:00:00+09:00</updated><id>http://localhost:4000/category2/templates</id><content type="html" xml:base="http://localhost:4000/category2/templates/">&lt;!-- **** 아래 부분부터 본문 영역입니다.*** --&gt;
+
+&lt;h1 id=&quot;sw-테스팅-개요&quot;&gt;SW 테스팅 개요&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;참고&lt;/strong&gt;&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;https://theorydb.github.io&quot; title=&quot;마우스를 올려놓으면 말풍선이 나옵니다.&quot;&gt;마크다운 작성 예제&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~/docs/_posts&lt;/code&gt; 폴더에 여러 템플릿을 참고해주세요.&lt;/li&gt;
+    &lt;li&gt;문단 나누기 -&amp;gt; 글 마지막 에서 스페이스바 2번 + 엔터   or &lt;br /&gt; 태그 입력
+&lt;br /&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;자동차, 철도, 항공, 로봇 등 안전 필수 시스템(Safety Critical System) 들은 사고 발생시 큰 인명 및 재산 피해로 이어지기 때문에 개발 과정에 서 철저한 안전 활동이 요구된다. 특히, 시스템 내 SW의 역할이 중요해지 고 그 비중이 높아짐에 따라, 사고의 잠재적 원인인 해저드(Hazard)를 분 석하고 안전 요구사항을 도출하기 위한 노력이 필요하다. 이에 따라, 안 전성 확보가 필수적인 산업분야에서는 도메인별 특성에 맞는 기능 안전 표준을 제정하여 SW 안전 기준을 강화하고, 국제 표준 준수를 의무화하 고 있다.&lt;/p&gt;
+
+&lt;p&gt;한편, 초지능, 초연결 시대에 진입하면서 머신러닝, 딥러닝 등 AI 기 술이 산업 전반에 활용되고 있으며, 개인지원 로봇 (Personal Care Robot) 의 자율 기능(autonomous function)에도 적용되고 있다. AI 기술은 자율성 을 갖추어 큰 편리함을 제공하지만, 전통적인 알고리즘 기반의 SW가 아 닌 데이터를 기반으로 학습을 통해 개발되는 SW이기 때문에, 기존과는 다른 안전성 확보 방안이 필요하다. AI 안전성 분야에서는 AI 실패를 예 방하기 위한 연구들을 수행해오고 있다. OECD와 EU 등 국제기구는 신뢰 가능(Trust worthy) AI 시스템 구축을 위한 지침을 제공하고 있으며, 자동 차 분야에서도 자율 주행 관련 안전성 표준인 SOTIF(Safety Of The Intended Function)를 개발 중이다.&lt;/p&gt;
+
+&lt;p&gt;하지만, 개인 지원 로봇의 자율 기능을 위한 안전성 연구는 많이 이 루어지지 않고 있다. 개인지원 로봇의 안전성 확보를 위해 개발된 표준인 ISO 13482는 Hazard 분석과 리스크 완화 방안을 위한 기본 틀을 제시하 고 있지만, 자율 의사결정 지침에서는 상위 수준의 가이드만 제시하고 있 다. 그러므로, 개인지원 로봇 분야의 실무자들을 지원하기 위해서는 기존 안전분석 기법과 더불어 자율 기능에 적용하기 위한 안전성 분석 프로세 스 및 가이드라인이 필요하다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;이미지&quot;&gt;이미지&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;&lt;a href=&quot;https://ahribori.com/article/5a03bcfd6c9eef13d882e29a&quot;&gt;깃허브 이슈를 활용한 이미지 쉽게 넣는 팁&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://theorydb.github.io/envops/2019/05/22/envops-blog-how-to-use-md/&quot;&gt;깃허브에 특정 폴더 위치에 이미지를 업로드해서 마크다운 링크로 작성하는 방법&lt;/a&gt;&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;!-- 이미지 정렬 ![대체텍스트](이미지주소 &quot;이미지제목&quot;) --&gt;
+&lt;h3 id=&quot;블랙박스-테스팅&quot;&gt;블랙박스 테스팅&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/92907581/141237421-2f48053f-4ce7-4bec-8e60-7169f2619433.png&quot; alt=&quot;블랙박스 테스팅&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;화이트박스테스팅&quot;&gt;화이트박스테스팅&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/92907581/141237421-2f48053f-4ce7-4bec-8e60-7169f2619433.png&quot; alt=&quot;화이트 박스 테스팅&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;발표자료-영상&quot;&gt;발표자료 영상&lt;/h3&gt;
+
+&lt;iframe width=&quot;807&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/qcrS6poY-OY&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;표&quot;&gt;표&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;블랙박스 테스팅&lt;/th&gt;
+      &lt;th&gt;화이트박스 테스팅&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;텍스트 및 이미지 입력&lt;/td&gt;
+      &lt;td&gt;텍스트 및 이미지 입력&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/92907581/141237421-2f48053f-4ce7-4bec-8e60-7169f2619433.png&quot; alt=&quot;블랙박스 테스팅&quot; /&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;입 출력값을 중심으로 테스팅하는 방법&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;화이트박스 테스팅&lt;/td&gt;
+      &lt;td&gt;논리적 구조를 기반으로 소스코드를 실행시켜 테스트하는 방법&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[Post with a Gallery][gallery-post]&lt;/td&gt;
+      &lt;td&gt;A post showing several images wrapped in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;figure&amp;gt;&lt;/code&gt; elements.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[Sample Collection Page][sample-collection]&lt;/td&gt;
+      &lt;td&gt;Single page from a collection.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[Categories Archive][categories-archive]&lt;/td&gt;
+      &lt;td&gt;Posts grouped by category.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;[Tags Archive][tags-archive]&lt;/td&gt;
+      &lt;td&gt;Posts grouped by tag.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name>작성자이름</name><email>작성자이메일@gmail.com</email></author><category term="category2" /><category term="tag1" /><category term="tag2" /><category term="tag3" /><category term="tag4" /><category term="tag5" /><category term="tag6" /><category term="tag7" /><summary type="html"></summary></entry><entry><title type="html">소프트웨어 테스팅이란?</title><link href="http://localhost:4000/category4/SW-Testing/" rel="alternate" type="text/html" title="소프트웨어 테스팅이란?" /><published>2021-10-02T00:00:00+09:00</published><updated>2021-10-02T00:00:00+09:00</updated><id>http://localhost:4000/category4/SW-Testing</id><content type="html" xml:base="http://localhost:4000/category4/SW-Testing/">&lt;p&gt;소프트웨어 테스팅이란 무엇입니까?
 소프트웨어 테스트는 실제 결과가 예상 결과와 일치하는지 확인하고 소프트웨어 시스템에 결함 이 없는지 확인하는 활동 입니다. 하나 이상의 관심 속성을 평가하기위한 소프트웨어 구성 요소 또는 시스템 구성 요소의 실행을 포함합니다.&lt;/p&gt;
 
 &lt;p&gt;철도, 항공, 로봇 등 안전 필수 시스템(Safety Critical System) 들은 사고 발생시 큰 인명 및 재산 피해로 이어지기 때문에 개발 과정에 서 철저한 안전 활동이 요구된다. 특히, 시스템 내 SW의 역할이 중요해지 고 그 비중이 높아짐에 따라, 사고의 잠재적 원인인 해저드(Hazard)를 분 석하고 안전 요구사항을 도출하기 위한 노력이 필요하다. 이에 따라, 안 전성 확보가 필수적인 산업분야에서는 도메인별 특성에 맞는 기능 안전 표준을 제정하여 SW 안전 기준을 강화하고, 국제 표준 준수를 의무화하 고 있다.
@@ -216,15 +303,4 @@
 
 &lt;p&gt;하지만, 개인 지원 로봇의 자율 기능을 위한 안전성 연구는 많이 이 루어지지 않고 있다. 개인지원 로봇의 안전성 확보를 위해 개발된 표준인 ISO 13482는 Hazard 분석과 리스크 완화 방안을 위한 기본 틀을 제시하 고 있지만, 자율 의사결정 지침에서는 상위 수준의 가이드만 제시하고 있 다. 그러므로, 개인지원 로봇 분야의 실무자들을 지원하기 위해서는 기존 안전분석 기법과 더불어 자율 기능에 적용하기 위한 안전성 분석 프로세 스 및 가이드라인이 필요하다.&lt;/p&gt;</content><author><name>작성자이름</name><email>작성자이메일@gmail.com</email></author><category term="category2" /><category term="tag1" /><category term="tag2" /><summary type="html">블랙 박스 테스트와 화이트 박스 테스트</summary></entry><entry><title type="html">초보자를위한 Atlassian Confluence 튜토리얼 : 2탄</title><link href="http://localhost:4000/category4/%EC%B4%88%EB%B3%B4%EC%9E%90-%EC%8D%B8%EB%84%A4%EC%9D%BC%EC%9E%88%EB%8A%94%EA%B2%BD%EC%9A%B0/" rel="alternate" type="text/html" title="초보자를위한 Atlassian Confluence 튜토리얼 : 2탄" /><published>2009-08-02T00:00:00+09:00</published><updated>2009-08-02T00:00:00+09:00</updated><id>http://localhost:4000/category4/%EC%B4%88%EB%B3%B4%EC%9E%90-%EC%8D%B8%EB%84%A4%EC%9D%BC%EC%9E%88%EB%8A%94%EA%B2%BD%EC%9A%B0</id><content type="html" xml:base="http://localhost:4000/category4/%EC%B4%88%EB%B3%B4%EC%9E%90-%EC%8D%B8%EB%84%A4%EC%9D%BC%EC%9E%88%EB%8A%94%EA%B2%BD%EC%9A%B0/">&lt;p&gt;한편, 초지능, 초연결 시대에 진입하면서 머신러닝, 딥러닝 등 AI 기 술이 산업 전반에 활용되고 있으며, 개인지원 로봇 (Personal Care Robot) 의 자율 기능(autonomous function)에도 적용되고 있다. AI 기술은 자율성 을 갖추어 큰 편리함을 제공하지만, 전통적인 알고리즘 기반의 SW가 아 닌 데이터를 기반으로 학습을 통해 개발되는 SW이기 때문에, 기존과는 다른 안전성 확보 방안이 필요하다. AI 안전성 분야에서는 AI 실패를 예 방하기 위한 연구들을 수행해오고 있다. OECD와 EU 등 국제기구는 신뢰 가능(Trust worthy) AI 시스템 구축을 위한 지침을 제공하고 있으며, 자동 차 분야에서도 자율 주행 관련 안전성 표준인 SOTIF(Safety Of The Intended Function)를 개발 중이다.&lt;/p&gt;
 
-&lt;p&gt;하지만, 개인 지원 로봇의 자율 기능을 위한 안전성 연구는 많이 이 루어지지 않고 있다. 개인지원 로봇의 안전성 확보를 위해 개발된 표준인 ISO 13482는 Hazard 분석과 리스크 완화 방안을 위한 기본 틀을 제시하 고 있지만, 자율 의사결정 지침에서는 상위 수준의 가이드만 제시하고 있 다. 그러므로, 개인지원 로봇 분야의 실무자들을 지원하기 위해서는 기존 안전분석 기법과 더불어 자율 기능에 적용하기 위한 안전성 분석 프로세 스 및 가이드라인이 필요하다.&lt;/p&gt;</content><author><name>작성자이름</name><email>작성자이메일@gmail.com</email></author><category term="category4" /><category term="tag1" /><category term="tag2" /><category term="tag3" /><category term="tag4" /><category term="tag5" /><category term="tag6" /><category term="tag7" /><summary type="html">한편, 초지능, 초연결 시대에 진입하면서 머신러닝, 딥러닝 등 AI 기 술이 산업 전반에 활용되고 있으며, 개인지원 로봇 (Personal Care Robot) 의 자율 기능(autonomous function)에도 적용되고 있다. AI 기술은 자율성 을 갖추어 큰 편리함을 제공하지만, 전통적인 알고리즘 기반의 SW가 아 닌 데이터를 기반으로 학습을 통해 개발되는 SW이기 때문에, 기존과는 다른 안전성 확보 방안이 필요하다. AI 안전성 분야에서는 AI 실패를 예 방하기 위한 연구들을 수행해오고 있다. OECD와 EU 등 국제기구는 신뢰 가능(Trust worthy) AI 시스템 구축을 위한 지침을 제공하고 있으며, 자동 차 분야에서도 자율 주행 관련 안전성 표준인 SOTIF(Safety Of The Intended Function)를 개발 중이다.</summary></entry><entry><title type="html">초보자를위한 Atlassian Confluence 튜토리얼 : 완전한 가이드</title><link href="http://localhost:4000/category2/confluence-tutorial-1/" rel="alternate" type="text/html" title="초보자를위한 Atlassian Confluence 튜토리얼 : 완전한 가이드" /><published>2009-07-02T00:00:00+09:00</published><updated>2009-07-02T00:00:00+09:00</updated><id>http://localhost:4000/category2/confluence-tutorial-1</id><content type="html" xml:base="http://localhost:4000/category2/confluence-tutorial-1/">&lt;p&gt;Atlassian Confluence Tutorial&lt;/p&gt;
-
-&lt;p&gt;초보자를위한 Atlassian Confluence 튜토리얼 :&lt;/p&gt;
-
-&lt;p&gt;자동차, 철도, 항공, 로봇 등 안전 필수 시스템(Safety Critical System) 들은 사고 발생시 큰 인명 및 재산 피해로 이어지기 때문에 개발 과정에 서 철저한 안전 활동이 요구된다. 특히, 시스템 내 SW의 역할이 중요해지 고 그 비중이 높아짐에 따라, 사고의 잠재적 원인인 해저드(Hazard)를 분 석하고 안전 요구사항을 도출하기 위한 노력이 필요하다. 이에 따라, 안 전성 확보가 필수적인 산업분야에서는 도메인별 특성에 맞는 기능 안전 표준을 제정하여 SW 안전 기준을 강화하고, 국제 표준 준수를 의무화하 고 있다.
-한편, 초지능, 초연결 시대에 진입하면서 머신러닝, 딥러닝 등 AI 기 술이 산업 전반에 활용되고 있으며, 개인지원 로봇 (Personal Care Robot) 의 자율 기능(autonomous function)에도 적용되고 있다. AI 기술은 자율성 을 갖추어 큰 편리함을 제공하지만, 전통적인 알고리즘 기반의 SW가 아 닌 데이터를 기반으로 학습을 통해 개발되는 SW이기 때문에, 기존과는 다른 안전성 확보 방안이 필요하다. AI 안전성 분야에서는 AI 실패를 예 방하기 위한 연구들을 수행해오고 있다. OECD와 EU 등 국제기구는 신뢰 가능(Trust worthy) AI 시스템 구축을 위한 지침을 제공하고 있으며, 자동 차 분야에서도 자율 주행 관련 안전성 표준인 SOTIF(Safety Of The Intended Function)를 개발 중이다.&lt;/p&gt;
-
-&lt;p&gt;하지만, 개인 지원 로봇의 자율 기능을 위한 안전성 연구는 많이 이 루어지지 않고 있다. 개인지원 로봇의 안전성 확보를 위해 개발된 표준인 ISO 13482는 Hazard 분석과 리스크 완화 방안을 위한 기본 틀을 제시하 고 있지만, 자율 의사결정 지침에서는 상위 수준의 가이드만 제시하고 있 다. 그러므로, 개인지원 로봇 분야의 실무자들을 지원하기 위해서는 기존 안전분석 기법과 더불어 자율 기능에 적용하기 위한 안전성 분석 프로세 스 및 가이드라인이 필요하다.&lt;/p&gt;
-
-&lt;p&gt;YouTube video embed below.&lt;/p&gt;
-
-&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube-nocookie.com/embed/l2Of1-d5E5o?controls=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>작성자이름</name><email>작성자이메일@gmail.com</email></author><category term="category2" /><category term="tag1" /><category term="tag2" /><category term="tag3" /><category term="tag4" /><category term="tag5" /><category term="tag6" /><category term="tag7" /><summary type="html">Atlassian Confluence Tutorial</summary></entry></feed>
+&lt;p&gt;하지만, 개인 지원 로봇의 자율 기능을 위한 안전성 연구는 많이 이 루어지지 않고 있다. 개인지원 로봇의 안전성 확보를 위해 개발된 표준인 ISO 13482는 Hazard 분석과 리스크 완화 방안을 위한 기본 틀을 제시하 고 있지만, 자율 의사결정 지침에서는 상위 수준의 가이드만 제시하고 있 다. 그러므로, 개인지원 로봇 분야의 실무자들을 지원하기 위해서는 기존 안전분석 기법과 더불어 자율 기능에 적용하기 위한 안전성 분석 프로세 스 및 가이드라인이 필요하다.&lt;/p&gt;</content><author><name>작성자이름</name><email>작성자이메일@gmail.com</email></author><category term="category4" /><category term="tag1" /><category term="tag2" /><category term="tag3" /><category term="tag4" /><category term="tag5" /><category term="tag6" /><category term="tag7" /><summary type="html">한편, 초지능, 초연결 시대에 진입하면서 머신러닝, 딥러닝 등 AI 기 술이 산업 전반에 활용되고 있으며, 개인지원 로봇 (Personal Care Robot) 의 자율 기능(autonomous function)에도 적용되고 있다. AI 기술은 자율성 을 갖추어 큰 편리함을 제공하지만, 전통적인 알고리즘 기반의 SW가 아 닌 데이터를 기반으로 학습을 통해 개발되는 SW이기 때문에, 기존과는 다른 안전성 확보 방안이 필요하다. AI 안전성 분야에서는 AI 실패를 예 방하기 위한 연구들을 수행해오고 있다. OECD와 EU 등 국제기구는 신뢰 가능(Trust worthy) AI 시스템 구축을 위한 지침을 제공하고 있으며, 자동 차 분야에서도 자율 주행 관련 안전성 표준인 SOTIF(Safety Of The Intended Function)를 개발 중이다.</summary></entry></feed>

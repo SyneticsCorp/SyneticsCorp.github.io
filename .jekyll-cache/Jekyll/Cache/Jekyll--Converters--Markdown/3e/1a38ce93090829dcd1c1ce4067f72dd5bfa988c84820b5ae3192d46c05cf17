@@ -1,0 +1,92 @@
+I"H
+
+<div>
+  
+  <div class="list__item mb-5 d-flex justify-content-between main-loop-card border-bottom border-color: #e8f3ec" style="padding-left: 16px; padding-right: 16px;">
+    <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+
+      
+      <!-- 그리드 타입인경우 -->
+      
+
+
+
+      <!-- 카테고리목록 -->
+      
+<!-- 해당포스트의 카테고리 출력 -->
+<!-- category-list > 사이트내 카테고리 목록 -->
+
+
+<!-- lyj_상단카테고리 표시-->
+<p>
+  <i class="fas fa-fw fa-folder-open " style="color: lightslategray;"></i>
+  
+  <span class="catlist">
+    <a class="sscroll text-info" href="/categories/category3_seminar" style="color: lightslategray; font-size:smaller;">category3_seminar</a></span>
+  
+  
+</p>
+
+
+
+
+      <h3 class="mb-2 h4 font-weight-bold">
+        
+        <a href="/category3_seminar/seminar-opensource/" rel="permalink">효율적인 오픈소스 관리법 (세미나영상)
+</a>
+        
+      </h3>
+      <!-- 글 요약 -->
+      <p class="archive__item-excerpt" itemprop="description">YouTube video embed below.
+</p>
+    <!-- 태그 목록 -->
+    <!-- lyj_해당 포스트의 태그를 출력함 -->
+<!-- tag-list > 사이트내 태그 목록 -->
+
+
+
+
+
+
+
+<p>
+  
+
+  
+  <span class="page__tag">
+    <a class="pr-1 pl-1 mr-1 ml-1" href="/tags/#{tag_word }}">#tag1</a> </span>
+    
+  <span class="page__tag">
+    <a class="pr-1 pl-1 mr-1 ml-1" href="/tags/#{tag_word }}">#tag2</a> </span>
+    
+  <span class="page__tag">
+    <a class="pr-1 pl-1 mr-1 ml-1" href="/tags/#{tag_word }}">#tag3</a> </span>
+    
+  <span class="page__tag">
+    <a class="pr-1 pl-1 mr-1 ml-1" href="/tags/#{tag_word }}">#tag4</a> </span>
+    
+  <span class="page__tag">
+    <a class="pr-1 pl-1 mr-1 ml-1" href="/tags/#{tag_word }}">#tag5</a> </span>
+    
+  <span class="page__tag">
+    <a class="pr-1 pl-1 mr-1 ml-1" href="/tags/#{tag_word }}">#tag6</a> </span>
+    
+  <span class="page__tag">
+    <a class="pr-1 pl-1 mr-1 ml-1" href="/tags/#{tag_word }}">#tag7</a> </span>
+    
+    
+
+ 
+</p>
+
+
+      
+  </article>
+  
+</div> 
+
+<!-- testct1 라는 카테고리를 가진 포스트들만 모아서 한번에 보여줄 수 있는 이지를 만든다. 📂pages 폴더> 📂categories 라는 폴더> 이 안에 런 카테고리들만 가진 포스트들을 나열하여 보여 줄 수 있는 마크다운 파일을 만들어 정리. permalink의 주소로 접근가능함-->
+
+<!-- !!! site.categories.카테고리명 // 포스트에 등록한 카테고리와 동일해야함 // 카테고리 파일명과 카테고리를 동일하게 작성하여 관리하도록함-->
+</div>
+:ET

@@ -1,0 +1,50 @@
+I"?<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <!-- <li><strong>팔로우:</strong></li> -->
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li>  
+      <a href="/contact" rel="permalink"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i>&nbsp;
+        이메일</a></li>
+  
+     <li> <a href="tel:010-9088-9058"><i class="fas fa-fw fa-phone" aria-hidden="true"></i>&nbsp;전화</a></li>
+    
+    
+    
+    <li><a
+        href="/feed.xml"><i
+          class="fas fa-fw fa-rss-square" aria-hidden="true"></i>
+        피드</a></li>
+    
+  </ul>
+</div>
+
+<!-- lyj_하단 카피라이트문구 -->
+<!-- <div class="page__footer-copyright">&copy; 2021 시네틱스 (Synetics).
+  Powered by <a href="https://jekyllrb.com"
+    rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/"
+    rel="nofollow">Minimal Mistakes</a>.</div> -->
+    <div class="page__footer-copyright"><strong>Copyright &copy; 2021 Synetics Corp. All rights reserved.</strong>
+      <p class="small">Powered by <a href="https://jekyllrb.com"
+        rel="nofollow">Jekyll</a>&amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/"
+        rel="nofollow">Minimal Mistakes.</a></p>
+      
+      </div>
+:ET

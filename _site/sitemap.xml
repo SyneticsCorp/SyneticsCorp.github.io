@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/category2/confluence-tutorial-1/</loc>
-<lastmod>2009-07-02T00:00:00+09:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/category4/%EC%B4%88%EB%B3%B4%EC%9E%90-%EC%8D%B8%EB%84%A4%EC%9D%BC%EC%9E%88%EB%8A%94%EA%B2%BD%EC%9A%B0/</loc>
 <lastmod>2009-08-02T00:00:00+09:00</lastmod>
 </url>
@@ -35,6 +31,10 @@
 <url>
 <loc>http://localhost:4000/category4/SW-Testing/</loc>
 <lastmod>2021-10-02T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/category2/templates/</loc>
+<lastmod>2021-11-11T00:00:00+09:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/about/</loc>

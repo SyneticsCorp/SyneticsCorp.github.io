@@ -146,7 +146,7 @@
       <div class="container">
   
 <!-- lyj_상단카테고리 표시 > page__hero.html 참고-->
-<!-- 기본 템플릿 > 이미지  -->
+<!-- 기본 템플릿  이미지  -->
   
 
   
@@ -325,7 +325,7 @@
 
 <hr></hr>
 
-  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+  <article class="container page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
     
     <meta itemprop="headline" content="소프트웨어 테스팅이란?">
     
@@ -402,13 +402,15 @@
       <!-- <div>{ if page.share }{ include social-share.html }{ endif }</div> -->
       <!-- 이전/다음 버튼 -->
       
-  <nav class="pagination">
+<!-- 이전, 다음 페이지 버튼 -->
+  <nav class="pagination" style="float: none;">
     
       <a href="/category2/DevOPs/" class="pagination--pager" title="DevOps 이해
 ">이전</a>
     
     
-      <a href="#" class="pagination--pager disabled">다음</a>
+      <a href="/category2/templates/" class="pagination--pager" title="포스팅 템플릿
+">다음</a>
     
   </nav>
 
@@ -426,9 +428,85 @@
   <div class="page h-entry page__related">
     <h2 class="page__related-title">추천 글
     </h2>
-    <!-- lyj_grid레이아웃에서  list__wrapper로 변경, archive-single.html type-"grid"-->
+    <!-- lyj_grid레이아웃에서  list__wrapper로 변경, archive-single.html type-"grid "-->
     <!-- 추천글 카드 -->
     <div class="list__wrapper">
+      
+      
+
+
+
+
+<div>
+
+  <div
+    class="entries_layout__item mb-5 d-flex justify-content-between main-loop-card border border-color: #e8f3ec"
+    style="padding-left: 16px; padding-right: 16px;">
+    <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+      <!-- 그리드 타입인경우 -->
+      
+
+      <h3 class="mb-2 h4 font-weight-bold">
+        
+        <a href="/category2/templates/" rel="permalink">포스팅 템플릿
+</a>
+        
+      </h3>
+      <!-- 글 요약 -->
+      <p class="archive__item-excerpt" itemprop="description" ">
+</p>
+    <!-- 태그 목록 -->
+    <!-- lyj_해당 포스트의 태그를 출력함 -->
+<!-- tag-list > 사이트내 태그 목록 -->
+
+
+
+
+
+
+
+<p>
+  
+
+  
+  <span class="page__tag">
+    <a class="pr-1 pl-1 mr-1 ml-1" href="/tags/#{tag_word }}"
+      >#tag1</a> </span>
+    
+  <span class="page__tag">
+    <a class="pr-1 pl-1 mr-1 ml-1" href="/tags/#{tag_word }}"
+      >#tag2</a> </span>
+    
+  <span class="page__tag">
+    <a class="pr-1 pl-1 mr-1 ml-1" href="/tags/#{tag_word }}"
+      >#tag3</a> </span>
+    
+  <span class="page__tag">
+    <a class="pr-1 pl-1 mr-1 ml-1" href="/tags/#{tag_word }}"
+      >#tag4</a> </span>
+    
+  <span class="page__tag">
+    <a class="pr-1 pl-1 mr-1 ml-1" href="/tags/#{tag_word }}"
+      >#tag5</a> </span>
+    
+  <span class="page__tag">
+    <a class="pr-1 pl-1 mr-1 ml-1" href="/tags/#{tag_word }}"
+      >#tag6</a> </span>
+    
+  <span class="page__tag">
+    <a class="pr-1 pl-1 mr-1 ml-1" href="/tags/#{tag_word }}"
+      >#tag7</a> </span>
+    
+    
+
+ 
+</p>
+
+
+  
+  </article>
+  
+</div>
       
       
 
@@ -479,54 +557,6 @@
     <a class="pr-1 pl-1 mr-1 ml-1" href="/tags/#{tag_word }}"
       >#tag3</a> </span>
     
-    
-
- 
-</p>
-
-
-  
-  </article>
-  
-</div>
-      
-      
-
-
-
-
-<div>
-
-  <div
-    class="entries_layout__item mb-5 d-flex justify-content-between main-loop-card border border-color: #e8f3ec"
-    style="padding-left: 16px; padding-right: 16px;">
-    <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-      <!-- 그리드 타입인경우 -->
-      
-
-      <h3 class="mb-2 h4 font-weight-bold">
-        
-        <a href="/category1/ALM/" rel="permalink">애플리케이션 라이프사이클 관리(ALM)
-</a>
-        
-      </h3>
-      <!-- 글 요약 -->
-      <p class="archive__item-excerpt" itemprop="description" ">애플리케이션 라이프사이클 관리(ALM)
-</p>
-    <!-- 태그 목록 -->
-    <!-- lyj_해당 포스트의 태그를 출력함 -->
-<!-- tag-list > 사이트내 태그 목록 -->
-
-
-
-
-
-
-
-<p>
-  
-
-  
     
 
  

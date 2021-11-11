@@ -4,7 +4,7 @@ layout: default
 <div class="container">
   {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
 <!-- lyj_상단카테고리 표시 > page__hero.html 참고-->
-<!-- 기본 템플릿 > 이미지  -->
+<!-- 기본 템플릿  이미지  -->
   {% include page__hero.html %}
   
 
@@ -23,7 +23,7 @@ layout: default
 
 <hr></hr>
 
-  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+  <article class="container page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
     {% if page.title %}
     <meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">
     {% endif %}
@@ -111,7 +111,7 @@ layout: default
   <div class="page h-entry page__related">
     <h2 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}
     </h2>
-    <!-- lyj_grid레이아웃에서  list__wrapper로 변경, archive-single.html type-"grid"-->
+    <!-- lyj_grid레이아웃에서  list__wrapper로 변경, archive-single.html type-"grid "-->
     <!-- 추천글 카드 -->
     <div class="list__wrapper">
       {% for post in site.related_posts limit:2 %}
