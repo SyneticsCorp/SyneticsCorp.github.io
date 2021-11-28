@@ -82,7 +82,7 @@ author_profile: false #작성자 정보 표시 여부
 
 ### 발표자료 영상
 
-<iframe width="807" height="480" src="https://www.youtube.com/embed/qcrS6poY-OY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" src="https://www.youtube.com/embed/qcrS6poY-OY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## 표
