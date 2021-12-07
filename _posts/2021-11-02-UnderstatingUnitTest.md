@@ -59,7 +59,7 @@ author_profile: false #작성자 정보 표시 여부
 
 
 
-### PPT 1장으로 살펴보는 SW 단위 테스트
+## PPT 1장으로 살펴보는 SW 단위 테스트
 
 <iframe width="560" height="450" src="https://www.youtube.com/embed/m2vJSEUWiQQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
