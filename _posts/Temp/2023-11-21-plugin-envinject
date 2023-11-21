@@ -128,6 +128,9 @@ This is a normal paragraph:
 * 설정방법 : Jenkins > <job> > 구성(configuration) > Build steps > 'Add build step' 선택
 ![image](https://github.com/SyneticsCorp/SyneticsCorp.github.io/assets/150226255/2c7c9cac-c914-4402-af3f-31c73b0d0805)
 
+* 예제 : 
+![image](https://github.com/SyneticsCorp/SyneticsCorp.github.io/assets/150226255/020b9d09-ca4f-4325-b1a4-947699c1d210)
+* 설정확인 : cat ./build.info.propertise
 
 end code block.
 
