@@ -78,7 +78,8 @@ author_profile: false #작성자 정보 표시 여부
 
 * 설명: 해당 사용자에 대한 분석결과 URL 생성 시 사용 
 
-* 예시 : 
+* 예시 :
+  
 ![image](https://github.com/SyneticsCorp/SyneticsCorp.github.io/assets/150226255/ca89d9be-68fd-4cdc-8d97-a0d30751dd98)
 
 
