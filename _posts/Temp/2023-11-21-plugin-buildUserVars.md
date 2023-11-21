@@ -79,9 +79,6 @@ author_profile: false #작성자 정보 표시 여부
 * 설명: 해당 사용자에 대한 분석결과 URL 생성 시 사용 
 
 * 예시 : 
-protex_userid="${BUILD_USER_ID}@protexip.etri
-..
-echo "SUCCESS: 정적분석 부분 실패, Console Output 확인, 오픈소스 분석 성공, <a href="https://protexip.etri.re.kr" target="_blank"> 오픈소스 분석결과 확인</a> 후에 <a href='https://ola.etri.re.kr/api/v1/create_project?prjName=${JOB_NAME}&requestUserEmail=${PRI_EMAIL}&protexUserId=${BUILD_USER_ID}@protexip.etri&protexUserPw=${PROTEX_PWD}' target='_blank'>최종보고서신청</a>" | tee $WORKSPACE/build_descr.txt
-
+![image](https://github.com/SyneticsCorp/SyneticsCorp.github.io/assets/150226255/ca89d9be-68fd-4cdc-8d97-a0d30751dd98)
 
 
