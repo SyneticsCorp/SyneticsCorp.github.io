@@ -57,9 +57,13 @@ author_profile: false #작성자 정보 표시 여부
   - [권한 부여](#3-권한-부여)
 - [결과](#결과)
 
+---
+
 ## 사용 목적 
 
 Jenkins에서 사용자에게 권한을 할당하지 않다면 모든 Job Item들을 보게 되거나 Overall/Read 권한 오류가 발생한다. "test"라는 ID를 가진 사용자는 "test_job"이라는 Job만 볼 수 있도록 권한을 할당하고 싶을 때, UI에서 번거롭게 설정하기보다 Script 실행으로 권한을 할당하려 한다.
+
+---
 
 ## 사용 방법
 
@@ -171,6 +175,8 @@ NEW_JOB_NAME: 사용자에게 권한 할당할 Job 이름
 
 java -jar jenkins-cli.jar -s http://localhost:18080/ -auth admin:jenkinsToken groovy =< jenkinsAuto.groovy "test" "test_job" 
 ```
+
+---
 
 ## 결과
 
