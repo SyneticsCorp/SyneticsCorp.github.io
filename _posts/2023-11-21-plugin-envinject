@@ -7,7 +7,7 @@ title: "Jenkins 플러그인 분석하기-Envinject"
 # 카테고리 관리는 다음 위치에서 수행 <~/_pages/categories> 폴더내 <카테고리.md>파일
 # 주의 > 포스트에 등록한 카테고리와 동일해야함, 카테고리 파일명과 카테고리를 동일하게 작성하여 관리하도록함
 categories: 
-  - DevSecOps
+  - category1
 
 # 현재 글에 태그를 입력합니다.
 tags:
