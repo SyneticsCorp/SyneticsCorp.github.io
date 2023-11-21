@@ -65,7 +65,7 @@ author_profile: false #작성자 정보 표시 여부
 빌드를 시작한 사용자를 설명하는 환경 변수 세트
 
 |변수명|설명|
-|------|---|---|
+|----------|---------|
 |BUILD_USER|전체 이름(이름+성)|
 |BUILD_USER_FIRST_NAME|이름|
 |BUILD_USER_LAST_NAME|성|
