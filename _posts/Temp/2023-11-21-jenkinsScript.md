@@ -172,7 +172,14 @@ NEW_JOB_NAME: 사용자에게 권한 할당할 Job 이름
 java -jar jenkins-cli.jar -s http://localhost:18080/ -auth admin:jenkinsToken groovy =< jenkinsAuto.groovy "test" "test_job" 
 ```
 
-> **실행 전** <br> ![03_test-1](https://github.com/SyneticsCorp/SyneticsCorp.github.io/assets/113246634/6893386b-3d4c-45ea-b8a3-e431e9043cf9)
->
-> **실행 후** <br> ![03_test-2](https://github.com/SyneticsCorp/SyneticsCorp.github.io/assets/113246634/773c8d44-fbfd-4458-9fec-488ef2a787f5)
+## 결과
+
+**실행 전** 
+
+![03_test-1](https://github.com/SyneticsCorp/SyneticsCorp.github.io/assets/113246634/6893386b-3d4c-45ea-b8a3-e431e9043cf9)
+
+
+**실행 후** 
+
+![03_test-2](https://github.com/SyneticsCorp/SyneticsCorp.github.io/assets/113246634/773c8d44-fbfd-4458-9fec-488ef2a787f5)
 
