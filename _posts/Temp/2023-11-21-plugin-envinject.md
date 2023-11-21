@@ -63,6 +63,7 @@ author_profile: false #작성자 정보 표시 여부
     * envinject-api : <https://plugins.jenkins.io/envinject-api/>
 
 
+
 ## 기능 
 
 1. Jenkins Java 프로세스에서 상속된 환경 변수를 제거합니다.
@@ -80,7 +81,9 @@ author_profile: false #작성자 정보 표시 여부
 7. 각 빌드에 사용되는 환경 변수 세트를 표시하기 위해 빌드가 끝날 때 환경 변수를 내보냅니다.
 
 
+
 ## 설정
+
 ###  General 
 * 노드(컨트롤러/에이전트) 시작 시 환경 변수를 주입
 
@@ -94,6 +97,7 @@ author_profile: false #작성자 정보 표시 여부
   *  설정 file로 확인하기: 터미널 실행 > cat $JENKINS_HOME/jobs/<job_name>/builds/<build_no>/inejctedEnvVars.txt
 
 
+
 ###  Build Environment
 1. 실행을 위한 빌드 단계로 환경 변수를 주입
 
@@ -101,6 +105,7 @@ author_profile: false #작성자 정보 표시 여부
   * properties/script/groovy script를 통해 설정 가능
 
 ![image](https://github.com/SyneticsCorp/SyneticsCorp.github.io/assets/150226255/a472b6c2-8c4d-49b8-81bb-a1d96780e805)
+
 
 * 설정확인
   * URL로 확인하기: 웹 실행 > http://<jenkins_url>/job/<job_name>/<build_no>/injectedEnvVars/export
@@ -111,6 +116,7 @@ author_profile: false #작성자 정보 표시 여부
 ![image](https://github.com/SyneticsCorp/SyneticsCorp.github.io/assets/150226255/8b626771-7dd7-4188-b4ca-afba43d7024a)
 
 
+
 2. 실행을 위한 비밀번호 값을 안전하게 주입
 
 * 설정방법 : Jenkins > <job> > 구성(configuration) > Build Envrionment > 'Inject passwords to the build as envrionment variables' 선택 >
@@ -118,7 +124,9 @@ author_profile: false #작성자 정보 표시 여부
 
 ![image](https://github.com/SyneticsCorp/SyneticsCorp.github.io/assets/150226255/4761cee3-df47-4191-84b9-a8f5d0163133)
 
+
 * 설정확인: 터미널 실행 > cat $JENKINS_HOME/jobs/<job_name>/config.xml
+
 
 
 ###  Build steps
@@ -128,9 +136,11 @@ author_profile: false #작성자 정보 표시 여부
 
 ![image](https://github.com/SyneticsCorp/SyneticsCorp.github.io/assets/150226255/2c7c9cac-c914-4402-af3f-31c73b0d0805)
 
+
 * 예제 : 
 
 ![image](https://github.com/SyneticsCorp/SyneticsCorp.github.io/assets/150226255/020b9d09-ca4f-4325-b1a4-947699c1d210)
+
 * 설정확인 : cat ./build.info.propertise
 
 
