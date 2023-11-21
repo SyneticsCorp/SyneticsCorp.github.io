@@ -51,7 +51,7 @@ author_profile: false #작성자 정보 표시 여부
 > *  기능
 > *  동작
 
-This is a normal paragraph: 
+
 ## 분석정보
  *  실행환경 : Ubuntu
  *  분석대상 plugin: build-user-vars-plugin
@@ -59,10 +59,7 @@ This is a normal paragraph:
  *  분석대상 job: ESCAS-OSS-Template
  *  관련 사이트 : https://www.jenkins.io/doc/pipeline/steps/build-user-vars-plugin/
  
-end code block.
 
-
-This is a normal paragraph: 
 ## 기능 
 
 빌드를 시작한 사용자를 설명하는 환경 변수 세트
@@ -76,9 +73,6 @@ This is a normal paragraph:
 |BUILD_USER_GROUPS|Jenkins 사용자 그룹|
 |BUILD_USER_EMAIL|이메일 주소|
 
-end code block.
-
-This is a normal paragraph: 
 
 ## 동작
 
@@ -90,4 +84,4 @@ protex_userid="${BUILD_USER_ID}@protexip.etri
 echo "SUCCESS: 정적분석 부분 실패, Console Output 확인, 오픈소스 분석 성공, <a href="https://protexip.etri.re.kr" target="_blank"> 오픈소스 분석결과 확인</a> 후에 <a href='https://ola.etri.re.kr/api/v1/create_project?prjName=${JOB_NAME}&requestUserEmail=${PRI_EMAIL}&protexUserId=${BUILD_USER_ID}@protexip.etri&protexUserPw=${PROTEX_PWD}' target='_blank'>최종보고서신청</a>" | tee $WORKSPACE/build_descr.txt
 
 
-end code block.
+
