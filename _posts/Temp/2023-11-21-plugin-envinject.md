@@ -52,7 +52,7 @@ author_profile: false #작성자 정보 표시 여부
 > *  기능
 > *  설정
 
-This is a normal paragraph: 
+
 ## 분석정보
  *  실행환경 : Ubuntu
  *  분석대상 plugin: envinject, envinject-api
@@ -61,10 +61,8 @@ This is a normal paragraph:
  *  관련 사이트
     * envinject : <https://plugins.jenkins.io/envinject/>
     * envinject-api : <https://plugins.jenkins.io/envinject-api/>
-end code block.
 
 
-This is a normal paragraph: 
 ## 기능 
 
 1. Jenkins Java 프로세스에서 상속된 환경 변수를 제거합니다.
@@ -81,9 +79,6 @@ This is a normal paragraph:
 
 7. 각 빌드에 사용되는 환경 변수 세트를 표시하기 위해 빌드가 끝날 때 환경 변수를 내보냅니다.
 
-end code block.
-
-This is a normal paragraph: 
 
 ## 설정
 ###  General 
@@ -91,6 +86,7 @@ This is a normal paragraph:
 
 *  설정방법 : Jenkins > <job> > 구성(configuration) > General > 'Prepare an envrionment for the run' 선택 >
   *  properties/script/groovy script를 통해 설정 가능
+
 ![image](https://github.com/SyneticsCorp/SyneticsCorp.github.io/assets/150226255/8a4e11b7-f563-4750-ae64-675c08441706)
 
 *  설정확인
@@ -103,6 +99,7 @@ This is a normal paragraph:
 
 * 설정방법 : Jenkins > <job> > 구성(configuration) > Build Envrionment > 'Inject environment variables to the build process' 선택 >
   * properties/script/groovy script를 통해 설정 가능
+
 ![image](https://github.com/SyneticsCorp/SyneticsCorp.github.io/assets/150226255/a472b6c2-8c4d-49b8-81bb-a1d96780e805)
 
 * 설정확인
@@ -110,6 +107,7 @@ This is a normal paragraph:
   * 설정 file로 확인하기: 터미널 실행 > cat $JENKINS_HOME/jobs/<job_name>/builds/<build_no>/inejctedEnvVars.txt
 
 * 예제 : 
+
 ![image](https://github.com/SyneticsCorp/SyneticsCorp.github.io/assets/150226255/8b626771-7dd7-4188-b4ca-afba43d7024a)
 
 
@@ -117,6 +115,7 @@ This is a normal paragraph:
 
 * 설정방법 : Jenkins > <job> > 구성(configuration) > Build Envrionment > 'Inject passwords to the build as envrionment variables' 선택 >
   * Global/job별 passwaord 설정 가능
+
 ![image](https://github.com/SyneticsCorp/SyneticsCorp.github.io/assets/150226255/4761cee3-df47-4191-84b9-a8f5d0163133)
 
 * 설정확인: 터미널 실행 > cat $JENKINS_HOME/jobs/<job_name>/config.xml
@@ -126,12 +125,14 @@ This is a normal paragraph:
 * 각 빌드에 사용되는 환경 변수 세트를 표시하기 위해 빌드가 끝날 때 환경 변수를 내보냅니다.
 
 * 설정방법 : Jenkins > <job> > 구성(configuration) > Build steps > 'Add build step' 선택
+
 ![image](https://github.com/SyneticsCorp/SyneticsCorp.github.io/assets/150226255/2c7c9cac-c914-4402-af3f-31c73b0d0805)
 
 * 예제 : 
+
 ![image](https://github.com/SyneticsCorp/SyneticsCorp.github.io/assets/150226255/020b9d09-ca4f-4325-b1a4-947699c1d210)
 * 설정확인 : cat ./build.info.propertise
 
-end code block.
+
 
 
