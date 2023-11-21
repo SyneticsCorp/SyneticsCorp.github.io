@@ -82,6 +82,8 @@ author_profile: false #작성자 정보 표시 여부
 
 
 
+
+
 ## 설정
 
 ###  General 
@@ -95,6 +97,9 @@ author_profile: false #작성자 정보 표시 여부
 *  설정확인
   *  URL로 확인하기: 웹 실행 > http://<jenkins_url>/job/<job_name>/<build_no>/injectedEnvVars/export
   *  설정 file로 확인하기: 터미널 실행 > cat $JENKINS_HOME/jobs/<job_name>/builds/<build_no>/inejctedEnvVars.txt
+
+
+
 
 
 
@@ -126,6 +131,8 @@ author_profile: false #작성자 정보 표시 여부
 
 
 * 설정확인: 터미널 실행 > cat $JENKINS_HOME/jobs/<job_name>/config.xml
+
+
 
 
 
