@@ -49,18 +49,122 @@ author_profile: false #작성자 정보 표시 여부
 
 # Jenkins 권한 자동화
 
-### 사용 목적 
+## 사용 목적 
 
 Jenkins에서 사용자에게 권한을 할당하지 않다면 모든 Job Item들을 보게 되거나 Overall/Read 권한 오류가 발생한다. "test"라는 ID를 가진 사용자는 "test_job"이라는 Job만 볼 수 있도록 권한을 할당하고 싶을 때, UI에서 번거롭게 설정하기보다 Script 실행으로 권한을 할당하려 한다.
 
-### 사용 방법
+## 사용 방법
 
-1. 스크립트 실행 전 Jenkins 관리자 계정 권한 확인
+### 1. Jenkins 관리자 계정 권한 확인
 
-- 만약 Overall/Administer가 아니라면 UI에서 설정 혹은 Jenkins Script Console 창에서 아래와 같이 실행한다.
-  - UI
+- Project-based Matrix Authorization Strategy 설정이 아니라면 [UI](#ui) 혹은 [Jenkins Script Console](#script-console)에서 실행
+  - #### UI
     - Jenkins 관리 > Configure Global Security > Project-based Matrix Authorization Strategy 설정 <br> ![01_authori-1](https://github.com/SyneticsCorp/SyneticsCorp.github.io/assets/113246634/1c5df159-3b25-4bdf-b780-25fc31e1e44c) 
     - Add user 클릭 <br> ![01_authori-2](https://github.com/SyneticsCorp/SyneticsCorp.github.io/assets/113246634/c485b363-a1c2-46fe-8d1f-1bf49652b8e0) 
     - 관리자 계정 User ID 설정 <br> ![01_authori-3](https://github.com/SyneticsCorp/SyneticsCorp.github.io/assets/113246634/c2676b74-e3f6-40fe-9e4a-c917ec2e2fe4) 
     - Overall/Administer 체크박스 클릭 후 Save <br> ![01_authori-4](https://github.com/SyneticsCorp/SyneticsCorp.github.io/assets/113246634/9c2b44f2-0b72-49c3-bb85-cda10b377090)
-  - Script Console
+  - #### Script Console
+    ```
+    import hudson.model.*
+    import jenkins.model.*
+    import hudson.security.*
+
+    def adminID = "admin"
+
+    def jenkins = Jenkins.getInstance()
+
+    def pmas = jenkins.getAuthorizationStrategy()
+    if (!(pmas instanceof ProjectMatrixAuthorizationStrategy)) {
+        pmas = new ProjectMatrixAuthorizationStrategy()
+        jenkins.setAuthorizationStrategy(pmas)
+    }
+
+    // "admin"에게 모든 권한 추가
+    pmas.add(Jenkins.ADMINISTER, "${adminID}")
+
+    jenkins.save()
+
+    ```
+
+### 2. 필요 파일 설치
+
+- jenkins-cli.jar
+  - Ubuntu 사용 시
+    ```
+    sudo wget http://[Jenkins URL]/jnlpJars/jenkins-cli.jar
+    ```
+  - UI에서 다운로드 시 <br> Jenkins 관리 > Jenkins CLI > jenkins-cli.jar 하이퍼링크 클릭 <br> ![jenkins-cli.jar](https://github.com/SyneticsCorp/SyneticsCorp.github.io/assets/113246634/4c121de8-5753-4214-9178-05efa85352b9)
+
+- groovy 파일 저장
+  - 파일 이름 예시: **jenkinsAuto.groovy**
+  - 코드
+  ```
+  import hudson.model.*
+  import jenkins.model.*
+  import hudson.security.*
+      
+  def grantReadPermission(String userID, String jobName) {
+      // 초기값 설정
+      def jenkins = Jenkins.getInstance()
+      def user = User.get("${userID}", false, null)
+      def job = jenkins.getItemByFullName("${jobName}", Job.class)
+
+      // 플러그인 설정
+      def pmas = jenkins.getAuthorizationStrategy()
+      if (!(pmas instanceof ProjectMatrixAuthorizationStrategy)) {
+          pmas = new ProjectMatrixAuthorizationStrategy()
+          jenkins.setAuthorizationStrategy(pmas)
+      }
+      
+      // Overall/READ 권한
+      pmas.add(Jenkins.READ, "${userID}")
+      
+      jenkins.save()
+      
+      // 사용자별 Job 권한 설정
+      AuthorizationMatrixProperty amp = job.getProperty(AuthorizationMatrixProperty.class)
+      if (amp == null) {
+          amp = new AuthorizationMatrixProperty()
+          job.addProperty(amp)
+      }
+      
+      amp.add(Job.READ, "${userID}")
+      
+      job.save()
+  }
+
+
+  // 값 받아오기
+  def customUserID = args[0]
+  def customJobName = args[1]
+  grantReadPermission(customUserID, customJobName)
+  ```
+
+### 3. 권한 부여
+
+- Terminal 창에서 실행
+- jenkins-cli.jar && groovy 파일이 존재하는 위치에서 실행
+
+```
+java -jar jenkins-cli.jar -s http://[JENKINS_URL]/ -auth [USER_NAME]:[API_TOKEN] groovy =< [GROOVY_FILE_NAME].groovy "[NEW_USER_ID]" "[NEW_JOB_NAME]" 
+```
+
+```
+JENKINS_URL: Jenkins URL 주소
+USER_NAME: 관리자 계정 ID
+API_TOKEN: Jenkins API Token
+GROOVY_FILE_NAME: Groovy 파일 이름
+NEW_USER_ID: 권한 할당할 사용자 ID
+NEW_JOB_NAME: 사용자에게 권한 할당할 Job 이름
+```
+
+```
+// 예시
+
+java -jar jenkins-cli.jar -s http://localhost:18080/ -auth admin:jenkinsToken groovy =< jenkinsAuto.groovy "test" "test_job" 
+```
+
+> **실행 전** <br> ![03_test-1](https://github.com/SyneticsCorp/SyneticsCorp.github.io/assets/113246634/6893386b-3d4c-45ea-b8a3-e431e9043cf9)
+>
+> **실행 후** <br> ![03_test-2](https://github.com/SyneticsCorp/SyneticsCorp.github.io/assets/113246634/773c8d44-fbfd-4458-9fec-488ef2a787f5)
+
