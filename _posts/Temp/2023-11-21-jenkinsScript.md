@@ -68,7 +68,11 @@ Jenkins에서 사용자에게 권한을 할당하지 않다면 모든 Job Item�
 
 ## 사용 방법
 
-### 0. Project-based Matrix Authorization Strategy 플러그인 설치
+### 0. Project-based Matrix Authorization Strategy 플러그인 설치 확인
+
+- Jenkins 관리 > Plugin Manager > 설치된 플러그인 목록 > Matrix Authorization Strategy Plugin 확인
+
+![plugin](https://github.com/SyneticsCorp/SyneticsCorp.github.io/assets/113246634/168fed8f-275e-4bee-a30f-d08780a6a658)
 
 ### 1. Jenkins 관리자 계정 권한 확인
 
