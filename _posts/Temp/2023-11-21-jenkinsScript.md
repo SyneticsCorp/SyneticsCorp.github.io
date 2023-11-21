@@ -52,6 +52,7 @@ author_profile: false #작성자 정보 표시 여부
 ## 목차
 - [사용 목적](#사용-목적)
 - [사용 방법](#사용-방법)
+  - [Project-based Matrix Authorization Strategy 플러그인 설치](#0-Project-based-Matrix-Authorization-Strategy-플러그인-설치)
   - [Jenkins 관리자 계정 확인](#1-Jenkins-관리자-계정-권한-확인)
   - [필요 파일 설치](#2-필요-파일-설치)
   - [권한 부여](#3-권한-부여)
@@ -66,6 +67,8 @@ Jenkins에서 사용자에게 권한을 할당하지 않다면 모든 Job Item�
 ---
 
 ## 사용 방법
+
+### 0. Project-based Matrix Authorization Strategy 플러그인 설치
 
 ### 1. Jenkins 관리자 계정 권한 확인
 
