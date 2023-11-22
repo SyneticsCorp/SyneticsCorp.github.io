@@ -116,7 +116,8 @@ Jenkins에서 사용자에게 권한을 할당하지 않다면 모든 Job Item�
 
 - groovy 파일 저장
   - 파일 이름 예시: **jenkinsAuto.groovy**
-  - 코드 <br>
+  - 코드
+
   ```
   import hudson.model.*
   import jenkins.model.*
