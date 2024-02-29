@@ -10,9 +10,9 @@ categories:
   - DevSafetyOps
 
 # 현재 글에 태그를 입력합니다.
-# tags:
-#   - tag1
-#   - tag2
+tags:
+  - Jenkins
+  - Build
 #   - tag3
 #   - tag4
 #   - tag5
